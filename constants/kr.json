@@ -57,6 +57,7 @@
 	"sideTermsLabel": "이용약관",
 	"sideLangLabel": "언어",
 	"sideBillingLabal": "결제 정보",
+	"sideVisibiltyVerfication": "가시성 및 확인",
 	"forgotDescription": "이메일을 입력하면 인증 코드를 보내드립니다",
 	"passwordLengthMessage": "비밀번호는 7자 이상이어야 합니다",
 	"confirmPasswordLengthMessage": "확인 비밀번호는 7자 이상이어야 합니다",
@@ -310,5 +311,24 @@
 	"chatHistoryOptions": [
 		{ "label": "0일", "value": "0day" },
 		{ "label": "30일", "value": "30days" }
+	],
+	"visibiltyText1": "실시간으로 확인되는 개인정보 보호.",
+	"deltSessionStatus": "세션 삭제 상태",
+	"sessionDeleted": "세션 삭제됨",
+	"localDeleted": "로컬 저장소 삭제됨",
+	"serverDeleted": "서버 캐시 삭제됨",
+	"noDataStored": "저장된 데이터 없음",
+	"auditStatus": "감사 로그 상태",
+	"auditDesc": "(이 항목에는 채팅 내용이 포함되어 있지 않으며, 데이터가 삭제되었다는 증명만 포함합니다.)",
+	"visibiltyText2": "개인정보 보호 상태 로그는 최대 30일 동안 표시된 후 기기에서 자동으로 삭제됩니다.",
+	"visibiltyChatHistoryTitle": "현재 채팅 기록",
+	"visibiltyChatHistorySubTitle": "채팅 기록 일정을 변경하려면 계정 설정으로 이동하세요",
+	"manageLocalData": "로컬 데이터 관리",
+	"manageDataDesc": "임시 캐시, 감사 항목 및 저장된 설정을 이 기기에서 삭제하거나 시스템이 자동으로 삭제합니다.",
+	"deleteFromDevice": "이 기기에서 삭제",
+	"chatHistoryDeleted": "채팅 기록이 성공적으로 삭제됨",
+	"visibiltyChatHistoryOptions": [
+		{ "label": "30일 로컬 기록 (기본값)", "value": "30days" },
+		{ "label": "0일 즉시 삭제", "value": "0day" }
 	]
 }

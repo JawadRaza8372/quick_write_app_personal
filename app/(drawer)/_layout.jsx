@@ -4,7 +4,7 @@ import side1 from "@/assets/images/side1.png";
 import side3 from "@/assets/images/side3.png";
 import side4 from "@/assets/images/side4.png";
 import side5 from "@/assets/images/side5.png";
-
+import side6 from "@/assets/images/side6.png";
 import UserAvtar from "@/components/UserAvatar";
 import { useThemeColors } from "@/hooks/useThemeColors";
 import { setAuthToken } from "@/services/apiUrl";
@@ -310,6 +310,21 @@ export default function Layout() {
 								focused ? { tintColor: colors.mainColor } : {},
 							]}
 							source={side5}
+						/>
+					),
+				}}
+			/>
+			<Drawer.Screen
+				name="visibility-validation"
+				options={{
+					drawerLabel: textStrings?.sideVisibiltyVerfication,
+					drawerIcon: ({ focused }) => (
+						<Image
+							style={[
+								styles.drawerIcon,
+								focused ? { tintColor: colors.mainColor } : {},
+							]}
+							source={side6}
 						/>
 					),
 				}}

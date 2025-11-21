@@ -57,6 +57,7 @@
 	"sideTermsLabel": "Termini e condizioni",
 	"sideLangLabel": "Lingua",
 	"sideBillingLabal": "Informazioni di fatturazione",
+	"sideVisibiltyVerfication": "Visibilità e Verifica",
 	"forgotDescription": "Per favore, inserisci la tua email e ti invieremo un codice di verifica",
 	"passwordLengthMessage": "La password deve essere lunga almeno 7 caratteri",
 	"confirmPasswordLengthMessage": "La password di conferma deve essere lunga almeno 7 caratteri",
@@ -310,5 +311,24 @@
 	"chatHistoryOptions": [
 		{ "label": "0 giorno", "value": "0day" },
 		{ "label": "30 giorni", "value": "30days" }
+	],
+	"visibiltyText1": "La tua privacy, verificata in tempo reale.",
+	"deltSessionStatus": "Stato Eliminazione Sessione",
+	"sessionDeleted": "Sessione eliminata",
+	"localDeleted": "Archiviazione locale cancellata",
+	"serverDeleted": "Cache del server cancellata",
+	"noDataStored": "Nessun dato memorizzato",
+	"auditStatus": "Stato Registro di Audit",
+	"auditDesc": "(Queste voci non contengono contenuti di chat, solo la prova che i tuoi dati sono stati eliminati.)",
+	"visibiltyText2": "I log dello stato della privacy vengono mostrati fino a 30 giorni e poi automaticamente eliminati dal tuo dispositivo.",
+	"visibiltyChatHistoryTitle": "Cronologia Chat Attuale",
+	"visibiltyChatHistorySubTitle": "Per modificare la pianificazione della tua Cronologia Chat, vai su Impostazioni Account",
+	"manageLocalData": "Gestisci i Tuoi Dati Locali",
+	"manageDataDesc": "Elimina cache temporanea, voci di audit e impostazioni memorizzate su questo dispositivo o il sistema le eliminerà automaticamente.",
+	"deleteFromDevice": "Elimina da questo dispositivo",
+	"chatHistoryDeleted": "Cronologia chat eliminata con successo",
+	"visibiltyChatHistoryOptions": [
+		{ "label": "Cronologia Locale 30 giorni (predefinito)", "value": "30days" },
+		{ "label": "Eliminazione Istantanea 0 giorni", "value": "0day" }
 	]
 }

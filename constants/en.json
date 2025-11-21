@@ -57,6 +57,7 @@
 	"sideTermsLabel": "Terms and Conditions",
 	"sideLangLabel": "Language",
 	"sideBillingLabal": "Billing Info",
+	"sideVisibiltyVerfication": "Visibility & Verification",
 	"forgotDescription": "Please type your email and we will send you a verification code",
 	"passwordLengthMessage": "Password must be at least 7 characters long",
 	"confirmPasswordLengthMessage": "Confirm Password must be at least 7 characters long",
@@ -309,5 +310,24 @@
 	"chatHistoryOptions": [
 		{ "label": "0-day", "value": "0day" },
 		{ "label": "30-days", "value": "30days" }
+	],
+	"visibiltyText1": "Your privacy, verified in real time.",
+	"deltSessionStatus": "Delete Session Status",
+	"sessionDeleted": "Session deleted",
+	"localDeleted": "Local storage cleared",
+	"serverDeleted": "Server cache cleared",
+	"noDataStored": "No data stored",
+	"auditStatus": "Audit Log Status",
+	"auditDesc": "(These entries contain no chat content, only proof that your data was deleted.)",
+	"visibiltyText2": "Privacy status logs are shown for up to 30 days and then automatically deleted from your device.",
+	"visibiltyChatHistoryTitle": "Current Chat History",
+	"visibiltyChatHistorySubTitle": "To change your Chat History schedule, please go to Account Settings",
+	"manageLocalData": "Manage Your Local Data",
+	"manageDataDesc": "Delete temporary cache, audit entries, and stored settings on this device or the system will automatically delete it. ",
+	"deleteFromDevice": "Delete from this device",
+	"chatHistoryDeleted": "Chat history deleted successfully",
+	"visibiltyChatHistoryOptions": [
+		{ "label": "30-days Local History (default)", "value": "30days" },
+		{ "label": "0-day Instant Delete", "value": "0day" }
 	]
 }

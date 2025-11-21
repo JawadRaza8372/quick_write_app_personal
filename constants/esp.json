@@ -57,6 +57,7 @@
 	"sideTermsLabel": "Términos y condiciones",
 	"sideLangLabel": "Idioma",
 	"sideBillingLabal": "Información de facturación",
+	"sideVisibiltyVerfication": "Visibilidad y Verificación",
 	"forgotDescription": "Por favor, escribe tu email y te enviaremos un código de verificación",
 	"passwordLengthMessage": "La contraseña debe tener al menos 7 caracteres",
 	"confirmPasswordLengthMessage": "Confirmar contraseña debe tener al menos 7 caracteres",
@@ -310,5 +311,27 @@
 	"chatHistoryOptions": [
 		{ "label": "0 días", "value": "0day" },
 		{ "label": "30 días", "value": "30days" }
+	],
+	"visibiltyText1": "Tu privacidad, verificada en tiempo real.",
+	"deltSessionStatus": "Estado de Eliminación de Sesión",
+	"sessionDeleted": "Sesión eliminada",
+	"localDeleted": "Almacenamiento local borrado",
+	"serverDeleted": "Caché del servidor borrado",
+	"noDataStored": "No hay datos almacenados",
+	"auditStatus": "Estado del Registro de Auditoría",
+	"auditDesc": "(Estas entradas no contienen contenido de chat, solo pruebas de que tus datos fueron eliminados.)",
+	"visibiltyText2": "Los registros de estado de privacidad se muestran hasta 30 días y luego se eliminan automáticamente de tu dispositivo.",
+	"visibiltyChatHistoryTitle": "Historial de Chat Actual",
+	"visibiltyChatHistorySubTitle": "Para cambiar la programación de tu Historial de Chat, por favor ve a Configuración de la Cuenta",
+	"manageLocalData": "Gestiona Tus Datos Locales",
+	"manageDataDesc": "Elimina caché temporal, entradas de auditoría y configuraciones almacenadas en este dispositivo o el sistema lo eliminará automáticamente.",
+	"deleteFromDevice": "Eliminar de este dispositivo",
+	"chatHistoryDeleted": "Historial de chat eliminado correctamente",
+	"visibiltyChatHistoryOptions": [
+		{
+			"label": "Historial Local de 30 días (predeterminado)",
+			"value": "30days"
+		},
+		{ "label": "Eliminación Instantánea de 0 días", "value": "0day" }
 	]
 }

@@ -57,6 +57,7 @@
 	"sideTermsLabel": "Conditions générales",
 	"sideLangLabel": "Langue",
 	"sideBillingLabal": "Informations de facturation",
+	"sideVisibiltyVerfication": "Visibilité et Vérification",
 	"forgotDescription": "Veuillez saisir votre email et nous vous enverrons un code de vérification",
 	"passwordLengthMessage": "Le mot de passe doit contenir au moins 7 caractères",
 	"confirmPasswordLengthMessage": "Le mot de passe de confirmation doit contenir au moins 7 caractères",
@@ -310,5 +311,24 @@
 	"chatHistoryOptions": [
 		{ "label": "0 jour", "value": "0day" },
 		{ "label": "30 jours", "value": "30days" }
+	],
+	"visibiltyText1": "Votre vie privée, vérifiée en temps réel.",
+	"deltSessionStatus": "Statut de Suppression de Session",
+	"sessionDeleted": "Session supprimée",
+	"localDeleted": "Stockage local effacé",
+	"serverDeleted": "Cache du serveur effacé",
+	"noDataStored": "Aucune donnée stockée",
+	"auditStatus": "Statut du Journal d'Audit",
+	"auditDesc": "(Ces entrées ne contiennent pas de contenu de chat, seulement la preuve que vos données ont été supprimées.)",
+	"visibiltyText2": "Les journaux de statut de confidentialité sont affichés jusqu'à 30 jours puis automatiquement supprimés de votre appareil.",
+	"visibiltyChatHistoryTitle": "Historique de Chat Actuel",
+	"visibiltyChatHistorySubTitle": "Pour modifier la planification de votre Historique de Chat, veuillez aller dans Paramètres du Compte",
+	"manageLocalData": "Gérez Vos Données Locales",
+	"manageDataDesc": "Supprimez le cache temporaire, les entrées d'audit et les paramètres stockés sur cet appareil ou le système les supprimera automatiquement.",
+	"deleteFromDevice": "Supprimer de cet appareil",
+	"chatHistoryDeleted": "Historique de chat supprimé avec succès",
+	"visibiltyChatHistoryOptions": [
+		{ "label": "Historique Local de 30 jours (par défaut)", "value": "30days" },
+		{ "label": "Suppression Instantanée de 0 jour", "value": "0day" }
 	]
 }

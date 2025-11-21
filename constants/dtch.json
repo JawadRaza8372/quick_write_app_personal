@@ -57,6 +57,7 @@
 	"sideTermsLabel": "Geschäftsbedingungen",
 	"sideLangLabel": "Sprache",
 	"sideBillingLabal": "Abrechnungsinformationen",
+	"sideVisibiltyVerfication": "Zichtbaarheid en Verificatie",
 	"forgotDescription": "Typ alsjeblieft je e-mail en we sturen je een verificatiecode",
 	"passwordLengthMessage": "Passwort muss mindestens 7 Zeichen lang sein",
 	"confirmPasswordLengthMessage": "Bestätigungspasswort muss mindestens 7 Zeichen lang sein",
@@ -310,5 +311,24 @@
 	"chatHistoryOptions": [
 		{ "label": "0 dag", "value": "0day" },
 		{ "label": "30 dagen", "value": "30days" }
+	],
+	"visibiltyText1": "Uw privacy, geverifieerd in realtime.",
+	"deltSessionStatus": "Sessie Verwijderingsstatus",
+	"sessionDeleted": "Sessie verwijderd",
+	"localDeleted": "Lokale opslag gewist",
+	"serverDeleted": "Server cache gewist",
+	"noDataStored": "Geen gegevens opgeslagen",
+	"auditStatus": "Auditlog Status",
+	"auditDesc": "(Deze items bevatten geen chatinhoud, alleen bewijs dat uw gegevens zijn verwijderd.)",
+	"visibiltyText2": "Privacy statuslogboeken worden tot 30 dagen weergegeven en daarna automatisch van uw apparaat verwijderd.",
+	"visibiltyChatHistoryTitle": "Huidige Chatgeschiedenis",
+	"visibiltyChatHistorySubTitle": "Ga naar Accountinstellingen om uw Chatgeschiedenis schema te wijzigen",
+	"manageLocalData": "Beheer Uw Lokale Gegevens",
+	"manageDataDesc": "Verwijder tijdelijke cache, audititems en opgeslagen instellingen op dit apparaat of het systeem zal het automatisch verwijderen.",
+	"deleteFromDevice": "Verwijderen van dit apparaat",
+	"chatHistoryDeleted": "Chatgeschiedenis succesvol verwijderd",
+	"visibiltyChatHistoryOptions": [
+		{ "label": "30-dagen Lokale Geschiedenis (standaard)", "value": "30days" },
+		{ "label": "0-dag Direct Verwijderen", "value": "0day" }
 	]
 }
