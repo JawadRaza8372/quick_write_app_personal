@@ -147,22 +147,6 @@ function CustomDrawerContent(props) {
 						</ImageBackground>
 					</TouchableOpacity>
 				) : null}
-				<TouchableOpacity
-					onPress={() => router.push({ pathname: "/subscription" })}>
-					<ImageBackground
-						style={styles.mainBgImage}
-						source={proBg}>
-						<View style={styles.mainContainer}>
-							<Text style={styles.proTxt}>
-								{user?.activePlan === "free"
-									? textStrings.goPro
-									: user?.activePlan === "pro"
-									? textStrings.upgrade
-									: textStrings.alreadyPremium}
-							</Text>
-						</View>
-					</ImageBackground>
-				</TouchableOpacity>
 			</View>
 
 			<View style={styles.childContainer}>

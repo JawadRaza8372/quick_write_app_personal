@@ -20,6 +20,7 @@ const ProfileSettingOption = ({ options, value, setValue, label }) => {
 			width: 16,
 			height: 16,
 			resizeMode: "contain",
+			tintColor: colors.backColor,
 		},
 		selectImage: {
 			width: 20,

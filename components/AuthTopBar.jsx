@@ -9,12 +9,15 @@ import {
 } from "react-native-popup-menu";
 import { useDispatch, useSelector } from "react-redux";
 import longLogo from "../assets/images/side-name-logo.png";
+import longLogo2 from "../assets/images/side-name-logo2.png";
+
 import { languages } from "../constants/dummyData";
 
 const AuthTopBar = ({ bottomWidth }) => {
 	const colors = useThemeColors();
 	const dispatch = useDispatch();
-	const { selectedLang } = useSelector((state) => state?.user);
+
+	const { selectedLang, theme } = useSelector((state) => state?.user);
 	const switchLangFun = (lng) => {
 		dispatch(setSelectedLang({ selectedLang: lng }));
 	};
@@ -115,7 +118,7 @@ const AuthTopBar = ({ bottomWidth }) => {
 		<View style={styles.bottomContainer}>
 			<Image
 				style={styles.logoImageStyle}
-				source={longLogo}
+				source={theme === "light" ? longLogo : longLogo2}
 			/>
 			<Menu>
 				<MenuTrigger>

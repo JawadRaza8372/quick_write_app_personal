@@ -55,7 +55,7 @@ const SocialFbButton = () => {
 	return (
 		<CustomButton
 			btnTitle={textStrings.continueWithFcebook}
-			txtColor={colors.backColor}
+			txtColor={colors.darkColorOnly}
 			BtnIcon1={
 				<Image
 					style={styles.socialIcon}

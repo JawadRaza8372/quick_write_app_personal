@@ -167,7 +167,7 @@ const OtpVerification = () => {
 		timeTxt: {
 			fontWeight: "400",
 			fontSize: 12,
-			color: colors.authInputPlaceholder,
+			color: colors.backColor,
 			width: "90%",
 			marginTop: -40,
 			marginBottom: 20,
@@ -229,7 +229,7 @@ const OtpVerification = () => {
 					<TouchableOpacity
 						onPress={() => router.back()}
 						style={styles.backBtn}>
-						<BackIcon />
+						<BackIcon color={colors.backColor} />
 					</TouchableOpacity>
 					<Image
 						source={longLogo}
@@ -294,7 +294,7 @@ const OtpVerification = () => {
 					<TouchableOpacity
 						onPress={() => router.replace({ pathname: "/login" })}
 						style={styles.bcktoLoginBtn}>
-						<BackIcon />
+						<BackIcon color={colors.backColor} />
 						<Text style={styles.bcktoLoginTxt}>{textStrings.backToLogin}</Text>
 					</TouchableOpacity>
 				</View>

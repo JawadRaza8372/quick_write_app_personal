@@ -59,7 +59,7 @@ const BillComp = ({ transactionId, status, amount, completedOn, paidBy }) => {
 		dateTxt: {
 			fontSize: 12,
 			fontWeight: "400",
-			color: colors.modalBg,
+			color: colors.darkColor,
 			height: "auto",
 			flex: 1,
 			textAlign: "right",
@@ -67,7 +67,7 @@ const BillComp = ({ transactionId, status, amount, completedOn, paidBy }) => {
 		transcctionTxt: {
 			fontSize: 12,
 			fontWeight: "400",
-			color: colors.modalBg,
+			color: colors.darkColor,
 		},
 		transcctionIdTxt: {
 			fontSize: 12,

@@ -1,3 +1,4 @@
+import { LinearGradient } from "expo-linear-gradient";
 import {
 	Dimensions,
 	Image,
@@ -16,7 +17,7 @@ import { setSelectedLang } from "../../services/store/userSlice";
 const Language = () => {
 	const { textStrings } = useLangStrings();
 	const dispatch = useDispatch();
-	const { selectedLang } = useSelector((state) => state?.user);
+	const { selectedLang, theme } = useSelector((state) => state?.user);
 	const colors = useThemeColors();
 	const switchLangFun = (lng) => {
 		dispatch(setSelectedLang({ selectedLang: lng }));
@@ -31,7 +32,6 @@ const Language = () => {
 			paddingVertical: 30,
 			paddingHorizontal: 25,
 			borderRadius: 12,
-			backgroundColor: colors.langageBg,
 		},
 		mainLangCont: {
 			width: "100%",
@@ -66,7 +66,15 @@ const Language = () => {
 	});
 	return (
 		<DrawerLayout title={textStrings.sideLangLabel}>
-			<View style={styles.mainBgCont}>
+			<LinearGradient
+				colors={
+					theme === "light"
+						? [colors.langageBg, colors.langageBg]
+						: [colors.gradient1, colors.gradient2]
+				}
+				start={{ x: 0.23, y: 0.0 }}
+				end={{ x: 0.97, y: 1.0 }}
+				style={styles.mainBgCont}>
 				{languages?.map((dat, index) => (
 					<TouchableOpacity
 						onPress={() => switchLangFun(dat?.value)}
@@ -84,7 +92,7 @@ const Language = () => {
 						)}
 					</TouchableOpacity>
 				))}
-			</View>
+			</LinearGradient>
 		</DrawerLayout>
 	);
 };

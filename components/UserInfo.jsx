@@ -41,7 +41,7 @@ const UserInfo = ({ hideIcon, username, email }) => {
 		emailTxt: {
 			fontSize: 16,
 			fontWeight: "400",
-			color: colors.successDesc,
+			color: colors.darkColorOnly,
 			lineHeight: 22,
 			textTransform: "lowercase",
 		},

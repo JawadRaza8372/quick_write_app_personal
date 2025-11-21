@@ -62,7 +62,7 @@ const darkColors = {
 	chatBtn: "rgba(0,0,0,0.1)",
 	white50: "rgba(255,255,255,0.5)",
 	payBg: "#0A2540",
-	labelColor: "#425466",
+	labelColor: "#ffffff",
 	stripeBorder: "#E6EBF1",
 	stripePlaceholderColor: "#62788D",
 	stripeInputBg: "rgba(255,255,255,0.20)",

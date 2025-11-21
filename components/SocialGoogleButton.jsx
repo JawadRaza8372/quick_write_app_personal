@@ -62,7 +62,7 @@ const SocialGoogleButton = () => {
 			btnWidth={"100%"}
 			btnRadius={10}
 			bgColor={colors.langageBg}
-			txtColor={colors.backColor}
+			txtColor={colors.darkColorOnly}
 			onPressFun={processUserData}
 		/>
 	);

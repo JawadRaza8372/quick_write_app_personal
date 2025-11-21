@@ -79,11 +79,11 @@ const AnimatedSwitch = ({
 						width: finalThumbSize,
 						height: finalThumbSize,
 						borderRadius: finalThumbSize / 2,
-						backgroundColor: thumbColor || "#fff",
+						backgroundColor: thumbColor || colors.mainBgColor,
 						transform: [{ translateX }],
 						...Platform.select({
 							ios: {
-								shadowColor: "#000",
+								shadowColor: colors.darkColorOnly,
 								shadowOffset: { width: 0, height: 1 },
 								shadowOpacity: 0.25,
 								shadowRadius: 1.5,
