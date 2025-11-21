@@ -329,5 +329,11 @@
 	"visibiltyChatHistoryOptions": [
 		{ "label": "30-days Local History (default)", "value": "30days" },
 		{ "label": "0-day Instant Delete", "value": "0day" }
+	],
+	"search": "Search",
+	"chatHistoryInfo": "Chat History Info",
+	"chatHistoryInfoArray": [
+		"Your chats are stored only on your device, never on our servers. Therefore, they aren’t synced across multiple devices.",
+		"By default, your chat history is kept for 30 days before being automatically deleted. You can change this setting anytime in Account Settings."
 	]
 }

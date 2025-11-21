@@ -330,5 +330,11 @@
 	"visibiltyChatHistoryOptions": [
 		{ "label": "30-dagen Lokale Geschiedenis (standaard)", "value": "30days" },
 		{ "label": "0-dag Direct Verwijderen", "value": "0day" }
+	],
+	"search": "Zoeken",
+	"chatHistoryInfo": "Chatgeschiedenis Info",
+	"chatHistoryInfoArray": [
+		"Uw chats worden alleen op uw apparaat opgeslagen, nooit op onze servers. Daarom worden ze niet gesynchroniseerd over meerdere apparaten.",
+		"Standaard wordt uw chatgeschiedenis 30 dagen bewaard voordat deze automatisch wordt verwijderd. U kunt deze instelling altijd wijzigen in Accountinstellingen."
 	]
 }

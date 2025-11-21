@@ -333,5 +333,11 @@
 			"value": "30days"
 		},
 		{ "label": "Eliminación Instantánea de 0 días", "value": "0day" }
+	],
+	"search": "Buscar",
+	"chatHistoryInfo": "Información del Historial de Chat",
+	"chatHistoryInfoArray": [
+		"Tus chats se almacenan solo en tu dispositivo, nunca en nuestros servidores. Por lo tanto, no se sincronizan entre múltiples dispositivos.",
+		"Por defecto, tu historial de chat se conserva durante 30 días antes de ser eliminado automáticamente. Puedes cambiar esta configuración en cualquier momento en Configuración de la Cuenta."
 	]
 }

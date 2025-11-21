@@ -330,5 +330,11 @@
 	"visibiltyChatHistoryOptions": [
 		{ "label": "Historique Local de 30 jours (par défaut)", "value": "30days" },
 		{ "label": "Suppression Instantanée de 0 jour", "value": "0day" }
+	],
+	"search": "Rechercher",
+	"chatHistoryInfo": "Informations sur l'Historique de Chat",
+	"chatHistoryInfoArray": [
+		"Vos chats sont stockés uniquement sur votre appareil, jamais sur nos serveurs. Par conséquent, ils ne sont pas synchronisés sur plusieurs appareils.",
+		"Par défaut, votre historique de chat est conservé pendant 30 jours avant d'être automatiquement supprimé. Vous pouvez modifier ce paramètre à tout moment dans les Paramètres du Compte."
 	]
 }

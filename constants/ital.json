@@ -330,5 +330,11 @@
 	"visibiltyChatHistoryOptions": [
 		{ "label": "Cronologia Locale 30 giorni (predefinito)", "value": "30days" },
 		{ "label": "Eliminazione Istantanea 0 giorni", "value": "0day" }
+	],
+	"search": "Cerca",
+	"chatHistoryInfo": "Informazioni Cronologia Chat",
+	"chatHistoryInfoArray": [
+		"Le tue chat sono memorizzate solo sul tuo dispositivo, mai sui nostri server. Pertanto, non sono sincronizzate su più dispositivi.",
+		"Per impostazione predefinita, la tua cronologia chat viene conservata per 30 giorni prima di essere eliminata automaticamente. Puoi cambiare questa impostazione in qualsiasi momento in Impostazioni Account."
 	]
 }

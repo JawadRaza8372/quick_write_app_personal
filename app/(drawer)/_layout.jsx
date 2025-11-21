@@ -5,8 +5,10 @@ import side3 from "@/assets/images/side3.png";
 import side4 from "@/assets/images/side4.png";
 import side5 from "@/assets/images/side5.png";
 import side6 from "@/assets/images/side6.png";
+import arrow from "@/assets/images/tailless-arrow.png";
 import UserAvtar from "@/components/UserAvatar";
 import { useThemeColors } from "@/hooks/useThemeColors";
+
 import { setAuthToken } from "@/services/apiUrl";
 import {
 	removeUserTokenfromStorage,
@@ -18,6 +20,7 @@ import {
 } from "@react-navigation/drawer";
 import { useRouter } from "expo-router";
 import { Drawer } from "expo-router/drawer";
+import { useState } from "react";
 import {
 	Alert,
 	Image,
@@ -35,12 +38,13 @@ function CustomDrawerContent(props) {
 	const router = useRouter();
 	const dispatch = useDispatch();
 	const { textStrings } = useLangStrings();
-	const { user } = useSelector((state) => state?.user);
+	const { user, theme } = useSelector((state) => state?.user);
+	const [isChtHistoryExtended, setisChtHistoryExtended] = useState(false);
 	const styles = StyleSheet.create({
 		topHeaderContainer: {
 			width: "100%",
 			height: "auto",
-			paddingBottom: 44,
+			paddingBottom: 28,
 			paddingTop: 18,
 			display: "flex",
 			alignItems: "center",
@@ -103,6 +107,67 @@ function CustomDrawerContent(props) {
 			fontWeight: "500",
 			color: colors.whiteOnly,
 			textAlign: "center",
+		},
+		innerContainer: {
+			width: "100%",
+			paddingHorizontal: 15,
+			paddingTop: 25,
+		},
+
+		questionBtn: {
+			width: "100%",
+			height: "auto",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "flex-start",
+			flexDirection: "row",
+			gap: 15,
+		},
+		answerView: {
+			marginTop: 15,
+			width: "100%",
+			height: "auto",
+		},
+		iconContainer: {
+			width: 22,
+			height: 22,
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "flex-end",
+			flexDirection: "row",
+		},
+		questionTxt: {
+			fontSize: 16,
+			fontWeight: "400",
+			lineHeight: 22,
+			color: theme === "light" ? colors.topHeadingColor : colors.whiteOnly,
+		},
+		pointsContainer: {
+			width: "100%",
+			display: "flex",
+			flexDirection: "row",
+			gap: 10,
+			alignItems: "flex-start",
+			justifyContent: "flex-start",
+		},
+		smallDot: {
+			width: 4,
+			height: 4,
+			borderRadius: 15,
+			backgroundColor: colors.successDesc,
+			marginTop: 9,
+		},
+		arrowImage: {
+			width: 16,
+			height: 16,
+			resizeMode: "contain",
+			tintColor: colors.backColor,
+		},
+		answerTxt: {
+			fontSize: 14,
+			fontWeight: "400",
+			lineHeight: 20,
+			color: colors.successDesc,
 		},
 	});
 	const onLogoutBtnPress = async () => {
@@ -171,6 +236,37 @@ function CustomDrawerContent(props) {
 					/>
 					<Text style={styles.logoutTxt}>{textStrings?.logout}</Text>
 				</TouchableOpacity>
+			</View>
+			<View style={styles.innerContainer}>
+				<TouchableOpacity
+					style={styles.questionBtn}
+					onPress={() => {
+						setisChtHistoryExtended(!isChtHistoryExtended);
+					}}>
+					<View style={styles.questionCont}>
+						<Text style={styles.questionTxt}>
+							{textStrings.chatHistoryInfo}
+						</Text>
+					</View>
+					<Image
+						source={arrow}
+						style={styles.arrowImage}
+					/>
+				</TouchableOpacity>
+				{isChtHistoryExtended ? (
+					<View style={styles.answerView}>
+						<View style={styles.mainPointContainer}>
+							{textStrings.chatHistoryInfoArray?.map((dat, index) => (
+								<View
+									style={styles.pointsContainer}
+									key={index}>
+									<View style={styles.smallDot} />
+									<Text style={styles.answerTxt}>{dat}</Text>
+								</View>
+							))}
+						</View>
+					</View>
+				) : null}
 			</View>
 		</DrawerContentScrollView>
 	);
