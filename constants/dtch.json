@@ -300,5 +300,15 @@
 	"acknowldgePrivacy": "Privacybeleid.",
 	"acknowldgeSecond": "QuickWriteAI verbiedt het gebruik van zijn product/dienst voor schade, zoals het produceren van gewelddadige, beledigende of misleidende inhoud.",
 	"fewNotes": "Een paar opmerkingen voordat we beginnen:",
-	"acknowldgeContinue": "Bevestigen en doorgaan"
+	"acknowldgeContinue": "Bevestigen en doorgaan",
+	"apperence": "Weergave",
+	"chathistory": "Chatgeschiedenis",
+	"appernceOptions": [
+		{ "label": "Licht", "value": "light" },
+		{ "label": "Donker", "value": "dark" }
+	],
+	"chatHistoryOptions": [
+		{ "label": "0 dag", "value": "0day" },
+		{ "label": "30 dagen", "value": "30days" }
+	]
 }

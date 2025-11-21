@@ -12,6 +12,7 @@ import {
 	TouchableOpacity,
 	View,
 } from "react-native";
+import { useSelector } from "react-redux";
 import option2 from "../assets/images/edit-email.png";
 import option3 from "../assets/images/refine-w.png";
 import option5 from "../assets/images/search.png";
@@ -33,7 +34,7 @@ const BottomChat = ({
 	const [keyboardVisible, setKeyboardVisible] = useState(false);
 	const [inputHeight, setInputHeight] = useState(78); // Default height
 	const [isMultiline, setIsMultiline] = useState(false); // Track if text is multiline
-
+	const { theme } = useSelector((state) => state?.user);
 	useEffect(() => {
 		const showSubscription = Keyboard.addListener("keyboardDidShow", () => {
 			setKeyboardVisible(true);
@@ -143,6 +144,7 @@ const BottomChat = ({
 			paddingTop: 0,
 			paddingBottom: 0,
 			textAlignVertical: isMultiline ? "top" : "center", // Dynamic vertical alignment
+			color: colors.mainHeadingColor,
 		},
 		moreIcon: {
 			width: 24,
@@ -209,7 +211,7 @@ const BottomChat = ({
 		btnTxt: {
 			fontSize: 14,
 			fontWeight: "400",
-			color: colors.backColor,
+			color: colors.inActiveTab,
 		},
 		btnIcon: {
 			width: 22,
@@ -227,6 +229,7 @@ const BottomChat = ({
 			borderColor: colors.mainColor,
 			borderWidth: 1,
 			gap: 8,
+			backgroundColor: colors.whiteOnly,
 		},
 	});
 
@@ -250,7 +253,9 @@ const BottomChat = ({
 			) : null}
 			<View style={styles.inputMainContainer}>
 				<TextInput
-					placeholderTextColor={colors.backColor}
+					placeholderTextColor={
+						theme === "light" ? colors.backColor : colors.whiteOnly
+					}
 					style={styles.sendInputView}
 					placeholder={textStrings.typeTextMsg}
 					value={value}

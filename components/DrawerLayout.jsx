@@ -11,6 +11,9 @@ import {
 } from "react-native";
 import menuImage from "../assets/images/menu.png";
 import logoImage from "../assets/images/side-name-logo.png";
+import logoImage2 from "../assets/images/side-name-logo2.png";
+
+import { useSelector } from "react-redux";
 import { useThemeColors } from "../hooks/useThemeColors";
 const DrawerLayout = ({
 	children,
@@ -22,6 +25,7 @@ const DrawerLayout = ({
 }) => {
 	const colors = useThemeColors();
 	const navigation = useNavigation();
+	const { theme } = useSelector((state) => state?.user);
 	const styles = StyleSheet.create({
 		mainContainer: {
 			width: "100%",
@@ -75,6 +79,7 @@ const DrawerLayout = ({
 			width: 25,
 			height: 25,
 			resizeMode: "contain",
+			tintColor: colors.topHeadingColor,
 		},
 		logoImageStyle: {
 			width: "100%",
@@ -115,7 +120,7 @@ const DrawerLayout = ({
 					) : (
 						<Image
 							style={styles.logoImageStyle}
-							source={logoImage}
+							source={theme === "light" ? logoImage : logoImage2}
 						/>
 					)}
 				</View>

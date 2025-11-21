@@ -45,7 +45,7 @@ const CustomButton = ({
 		btnTxt: {
 			fontSize: txtSize ?? 15,
 			fontWeight: "700",
-			color: txtColor ?? colors.mainBgColor,
+			color: txtColor ?? colors.whiteOnly,
 		},
 	});
 	const RenderComponent = onPressFun || isLoading ? TouchableOpacity : View;

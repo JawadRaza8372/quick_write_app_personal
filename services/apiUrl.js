@@ -5,8 +5,9 @@ import {
 	saveUserTokenToStorage,
 } from "./store/userSlice";
 const productionLink = "https://quickwriteaiapi.britxel.com/";
-const developmentLink = "http://192.168.1.5:4000/";
-const isProduction = true;
+const developmentLink =
+	"https://wc0osk40ko8k0gswcgcowgwk.91.108.126.5.sslip.io/";
+const isProduction = false;
 const mainUrl = isProduction ? productionLink : developmentLink;
 
 // ⚙️ Axios instance

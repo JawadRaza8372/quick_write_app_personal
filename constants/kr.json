@@ -300,5 +300,15 @@
 	"acknowldgePrivacy": "개인정보처리방침에 동의하는 것입니다.",
 	"acknowldgeSecond": "QuickWriteAI는 폭력적, 학대적 또는 기만적인 콘텐츠 생성과 같은 해를 위한 제품/서비스 사용을 금지합니다.",
 	"fewNotes": "시작하기 전에 참고 사항:",
-	"acknowldgeContinue": "확인 및 계속"
+	"acknowldgeContinue": "확인 및 계속",
+	"apperence": "외관",
+	"chathistory": "채팅 기록",
+	"appernceOptions": [
+		{ "label": "라이트", "value": "light" },
+		{ "label": "다크", "value": "dark" }
+	],
+	"chatHistoryOptions": [
+		{ "label": "0일", "value": "0day" },
+		{ "label": "30일", "value": "30days" }
+	]
 }

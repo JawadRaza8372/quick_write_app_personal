@@ -300,5 +300,15 @@
 	"acknowldgePrivacy": "Política de Privacidad.",
 	"acknowldgeSecond": "QuickWriteAI prohíbe usar su producto/servicio para dañar, como producir contenido violento, abusivo o engañoso.",
 	"fewNotes": "Algunas notas antes de comenzar:",
-	"acknowldgeContinue": "Confirmar y continuar"
+	"acknowldgeContinue": "Confirmar y continuar",
+	"apperence": "Apariencia",
+	"chathistory": "Historial de Chat",
+	"appernceOptions": [
+		{ "label": "Claro", "value": "light" },
+		{ "label": "Oscuro", "value": "dark" }
+	],
+	"chatHistoryOptions": [
+		{ "label": "0 días", "value": "0day" },
+		{ "label": "30 días", "value": "30days" }
+	]
 }

@@ -4,12 +4,14 @@ import { useEffect } from "react";
 import { StatusBar } from "react-native";
 import { MenuProvider } from "react-native-popup-menu";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { useSelector } from "react-redux";
 import { useThemeColors } from "../hooks/useThemeColors";
 import { disconnectSocket, initiateSocket } from "../services/socketService";
 import Navigation from "./Navigation";
 
 const AppWrapper = () => {
 	const colors = useThemeColors();
+	const { theme } = useSelector((state) => state?.user);
 	useEffect(() => {
 		const lockOrientation = async () => {
 			try {
@@ -36,7 +38,7 @@ const AppWrapper = () => {
 					style={{ flex: 1, backgroundColor: colors.mainBgColor }}>
 					<StatusBar
 						backgroundColor={colors.mainBgColor}
-						barStyle={"dark-content"}
+						barStyle={theme === "light" ? "dark-content" : "light-content"}
 					/>
 					<Navigation />
 				</SafeAreaView>

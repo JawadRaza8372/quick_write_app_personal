@@ -1,4 +1,6 @@
-const defaultColors = {
+import { useSelector } from "react-redux";
+
+const lightColors = {
 	mainHeadingColor: "#360382",
 	mainBgColor: "#FFFFFF",
 	mainColor: "#8C40FF",
@@ -7,7 +9,7 @@ const defaultColors = {
 	myMsgColor: "#3A2E6E",
 	topHeadingColor: "#292929",
 	sepratorView: "#E9EDF7",
-	darkColor: "#212121",
+	darkColorOnly: "#212121",
 	modalBg: "rgba(0,0,0,0.6)",
 	moreBg: "rgba(0,0,0,0.2)",
 	chatBtn: "rgba(0,0,0,0.1)",
@@ -39,8 +41,60 @@ const defaultColors = {
 	greenBg: "#00FF9433",
 	redTxt: "#F54B5F",
 	redBg: "#F54B4B29",
+	whiteOnly: "#ffffff",
+	tickTint: "#360382",
+	gradient1: "#ffffff",
+	gradient2: "#ffffff",
+};
+const darkColors = {
+	mainHeadingColor: "#ffffff",
+	mainBgColor: "#343541",
+	mainColor: "#8C40FF",
+	inActiveTab: "#505050",
+	subscriptionBorderColor: "#542699",
+	darkColorOnly: "#212121",
+	myMsgColor: "#3A2E6E",
+	topHeadingColor: "#ffffff",
+	sepratorView: "#E9EDF7",
+	darkColor: "#ffffff",
+	modalBg: "rgba(0,0,0,0.6)",
+	moreBg: "rgba(0,0,0,0.2)",
+	chatBtn: "rgba(0,0,0,0.1)",
+	white50: "rgba(255,255,255,0.5)",
+	payBg: "#0A2540",
+	labelColor: "#425466",
+	stripeBorder: "#E6EBF1",
+	stripePlaceholderColor: "#62788D",
+	stripeInputBg: "rgba(255,255,255,0.20)",
+	successDesc: "#ffffff",
+	inActiveAuthBorder: "#04050C26",
+	authInputPlaceholder: "#04050C99",
+	inputLabelColor: "#ffffff",
+	inActiveSwitch: "#e5e5ea",
+	rememberColor: "#263238",
+	backColor: "#ffffff",
+	otpBorder: "#DFDFDF",
+	userColor: "#ffffff",
+	redColor: "red",
+	shieldColor: "#C46666",
+	senderBg: "#EDE8F8",
+	machineMsg: "#352C42",
+	sourceBg: "#F7F7F7",
+	refernceTxt: "#352C43",
+	langageBg: "#F8F9FE",
+	langBorder: "#ffffff",
+	billBorder: "#E0E8F299",
+	greenTxt: "#5DC486",
+	greenBg: "#00FF9433",
+	redTxt: "#F54B5F",
+	redBg: "#F54B4B29",
+	whiteOnly: "#ffffff",
+	tickTint: "#ffffff",
+	gradient1: "rgba(246, 246, 246, 0.26)",
+	gradient2: "#343541",
 };
 export const useThemeColors = () => {
-	const colors = defaultColors;
+	const { theme } = useSelector((state) => state?.user);
+	const colors = theme === "dark" ? darkColors : lightColors;
 	return colors;
 };

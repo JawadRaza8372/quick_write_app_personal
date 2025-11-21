@@ -1,4 +1,5 @@
 import { useStripe } from "@stripe/stripe-react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import {
@@ -25,8 +26,8 @@ import {
 	postPaymentSuccessApi,
 	shouldShowGetStarted,
 } from "../services/endpoints";
-
 const Subscription = () => {
+	const { theme } = useSelector((state) => state?.user);
 	const { textStrings } = useLangStrings();
 	const colors = useThemeColors();
 	const { initPaymentSheet, presentPaymentSheet, confirmPayment } = useStripe();
@@ -91,6 +92,7 @@ const Subscription = () => {
 			gap: 5,
 			marginTop: 24,
 			marginBottom: 40,
+			backgroundColor: colors.whiteOnly,
 		},
 		tabContainer: {
 			height: "100%",
@@ -110,20 +112,26 @@ const Subscription = () => {
 			fontWeight: "700",
 			textAlign: "center",
 			marginTop: 90,
+			color: colors.darkColor,
 		},
 		subscriptionMainContainer: {
-			width: Dimensions.get("screen").width - 70,
 			borderRadius: 15,
 			borderWidth: 4,
 			borderColor: colors.subscriptionBorderColor,
+			width: "auto",
+			height: "auto",
+		},
+		mainInnerContainer: {
 			paddingHorizontal: 22,
 			paddingVertical: 33,
 			height: "auto",
+			width: Dimensions.get("screen").width - 70,
 		},
 		starImageStyle: {
 			width: 42,
 			height: 42,
 			objectFit: "contain",
+			tintColor: colors.tickTint,
 		},
 		headerView: {
 			width: "100%",
@@ -141,14 +149,14 @@ const Subscription = () => {
 		titleTxt: {
 			fontSize: 20,
 			fontWeight: "700",
-			color: colors.inActiveTab,
+			color: theme === "light" ? colors.inActiveTab : colors.whiteOnly,
 			marginTop: 17,
 			marginBottom: 8,
 		},
 		descriptionTxt: {
 			fontSize: 13,
 			fontWeight: "400",
-			color: colors.inActiveTab,
+			color: theme === "light" ? colors.inActiveTab : colors.whiteOnly,
 			marginBottom: 24,
 			textAlign: "center",
 		},
@@ -188,6 +196,7 @@ const Subscription = () => {
 			width: 19,
 			height: 19,
 			resizeMode: "contain",
+			tintColor: colors.tickTint,
 		},
 	});
 	const startPayment = async (planName) => {
@@ -277,7 +286,7 @@ const Subscription = () => {
 								{
 									color:
 										sselectedTab === "Monthly"
-											? colors.mainBgColor
+											? colors.whiteOnly
 											: colors.inActiveTab,
 								},
 							]}>
@@ -307,41 +316,47 @@ const Subscription = () => {
 						</Text>
 					</TouchableOpacity>
 				</View>
-				<View style={styles.subscriptionMainContainer}>
-					<View style={styles.headerView}>
-						<Image
-							style={styles.starImageStyle}
-							source={starImage}
-						/>
-						<Text style={styles.priceTxt}>
-							${subscriptionData.price}/{subscriptionData.priceSuffix}
+				<LinearGradient
+					colors={[colors.gradient1, colors.gradient2]}
+					start={{ x: 0.23, y: 0.0 }}
+					end={{ x: 0.97, y: 1.0 }}
+					style={styles.subscriptionMainContainer}>
+					<View style={styles.mainInnerContainer}>
+						<View style={styles.headerView}>
+							<Image
+								style={styles.starImageStyle}
+								source={starImage}
+							/>
+							<Text style={styles.priceTxt}>
+								${subscriptionData.price}/{subscriptionData.priceSuffix}
+							</Text>
+						</View>
+						<Text style={styles.titleTxt}>{subscriptionData.name}</Text>
+						<Text style={styles.descriptionTxt}>
+							{subscriptionData.description}
 						</Text>
+						<View style={styles.sepratorView} />
+						<View style={styles.itemsContainer}>
+							{subscriptionData?.points?.map((dat, index) => (
+								<View
+									style={styles.itemList}
+									key={index}>
+									<Image
+										source={tickImage}
+										style={styles.itemIcon}
+									/>
+									<Text style={styles.itemText}>{dat}</Text>
+								</View>
+							))}
+						</View>
+						<CustomButton
+							isDisabled={!shouldShowGetStarted(user, sselectedTab)}
+							btnWidth={"100%"}
+							btnTitle={textStrings.getStarted}
+							onPressFun={() => startPayment(subscriptionData.value)}
+						/>
 					</View>
-					<Text style={styles.titleTxt}>{subscriptionData.name}</Text>
-					<Text style={styles.descriptionTxt}>
-						{subscriptionData.description}
-					</Text>
-					<View style={styles.sepratorView} />
-					<View style={styles.itemsContainer}>
-						{subscriptionData?.points?.map((dat, index) => (
-							<View
-								style={styles.itemList}
-								key={index}>
-								<Image
-									source={tickImage}
-									style={styles.itemIcon}
-								/>
-								<Text style={styles.itemText}>{dat}</Text>
-							</View>
-						))}
-					</View>
-					<CustomButton
-						isDisabled={!shouldShowGetStarted(user, sselectedTab)}
-						btnWidth={"100%"}
-						btnTitle={textStrings.getStarted}
-						onPressFun={() => startPayment(subscriptionData.value)}
-					/>
-				</View>
+				</LinearGradient>
 				<PaymentModal
 					showModal={openStripeModal}
 					closeModalFun={() => setopenStripeModal(false)}

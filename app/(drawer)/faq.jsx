@@ -1,3 +1,4 @@
+import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
 import {
 	Dimensions,
@@ -7,6 +8,7 @@ import {
 	TouchableOpacity,
 	View,
 } from "react-native";
+import { useSelector } from "react-redux";
 import DownArrow from "../../assets/icons/DownArrow";
 import UpArrow from "../../assets/icons/UpArrow";
 import DrawerLayout from "../../components/DrawerLayout";
@@ -15,16 +17,20 @@ import { useThemeColors } from "../../hooks/useThemeColors";
 
 const Faq = () => {
 	const colors = useThemeColors();
+	const { theme } = useSelector((state) => state?.user);
 	const { textStrings } = useLangStrings();
 	const [openedItemId, setopenedItemId] = useState("0");
 	const styles = StyleSheet.create({
 		mainContainer: {
-			width: Dimensions.get("screen").width - 60,
 			alignSelf: "center",
-			backgroundColor: colors.langageBg,
+			borderRadius: 10,
+			width: Dimensions.get("screen").width - 60,
+			height: "auto",
+		},
+		innerContainer: {
+			width: "100%",
 			paddingHorizontal: 25,
 			paddingVertical: 31,
-			borderRadius: 10,
 		},
 		sepratorView: {
 			width: "100%",
@@ -106,48 +112,62 @@ const Faq = () => {
 				ItemSeparatorComponent={() => <View style={styles.sepratorView} />}
 				keyExtractor={(item, index) => index.toString()}
 				renderItem={({ item, index }) => (
-					<View style={styles.mainContainer}>
-						<TouchableOpacity
-							style={styles.questionBtn}
-							onPress={() => {
-								if (openedItemId === `${index}`) {
-									setopenedItemId("");
-								} else {
-									setopenedItemId(`${index}`);
-								}
-							}}>
-							<View style={styles.questionCont}>
-								<Text style={styles.questionTxt}>{item?.question}</Text>
-							</View>
-							<View style={styles.iconContainer}>
-								{openedItemId === `${index}` ? <UpArrow /> : <DownArrow />}
-							</View>
-						</TouchableOpacity>
-						{openedItemId === `${index}` ? (
-							<View style={styles.answerView}>
-								<Text style={styles.answerTxt}>{item?.answer}</Text>
-								{item?.points?.length > 0 ? (
-									<View style={styles.mainPointContainer}>
-										{item?.points?.map((dat, index) => (
-											<View
-												style={styles.pointsContainer}
-												key={index}>
-												<View style={styles.smallDot} />
-												<Text style={styles.answerTxt}>{dat}</Text>
-											</View>
-										))}
-									</View>
-								) : null}
-								{item?.answer2 ? (
-									<Text style={styles.answerTxt}>{item?.answer2}</Text>
-								) : null}
+					<LinearGradient
+						colors={
+							theme === "light"
+								? [colors.langageBg, colors.langageBg]
+								: [colors.gradient1, colors.gradient2]
+						}
+						start={{ x: 0.23, y: 0.0 }}
+						end={{ x: 0.97, y: 1.0 }}
+						style={styles.mainContainer}>
+						<View style={styles.innerContainer}>
+							<TouchableOpacity
+								style={styles.questionBtn}
+								onPress={() => {
+									if (openedItemId === `${index}`) {
+										setopenedItemId("");
+									} else {
+										setopenedItemId(`${index}`);
+									}
+								}}>
+								<View style={styles.questionCont}>
+									<Text style={styles.questionTxt}>{item?.question}</Text>
+								</View>
+								<View style={styles.iconContainer}>
+									{openedItemId === `${index}` ? (
+										<UpArrow color={colors.langBorder} />
+									) : (
+										<DownArrow color={colors.langBorder} />
+									)}
+								</View>
+							</TouchableOpacity>
+							{openedItemId === `${index}` ? (
+								<View style={styles.answerView}>
+									<Text style={styles.answerTxt}>{item?.answer}</Text>
+									{item?.points?.length > 0 ? (
+										<View style={styles.mainPointContainer}>
+											{item?.points?.map((dat, index) => (
+												<View
+													style={styles.pointsContainer}
+													key={index}>
+													<View style={styles.smallDot} />
+													<Text style={styles.answerTxt}>{dat}</Text>
+												</View>
+											))}
+										</View>
+									) : null}
+									{item?.answer2 ? (
+										<Text style={styles.answerTxt}>{item?.answer2}</Text>
+									) : null}
 
-								{item?.conslude ? (
-									<Text style={styles.concludeTxt}>{item?.conslude}</Text>
-								) : null}
-							</View>
-						) : null}
-					</View>
+									{item?.conslude ? (
+										<Text style={styles.concludeTxt}>{item?.conslude}</Text>
+									) : null}
+								</View>
+							) : null}
+						</View>
+					</LinearGradient>
 				)}
 				ListFooterComponent={<View style={styles.bottomPadding} />}
 			/>

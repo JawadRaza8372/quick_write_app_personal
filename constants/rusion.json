@@ -300,5 +300,15 @@
 	"acknowldgePrivacy": "Политику конфиденциальности.",
 	"acknowldgeSecond": "QuickWriteAI запрещает использование своего продукта/услуги для причинения вреда, такого как создание насильственного, оскорбительного или обманчивого контента.",
 	"fewNotes": "Несколько заметок перед началом работы:",
-	"acknowldgeContinue": "Подтвердить и продолжить"
+	"acknowldgeContinue": "Подтвердить и продолжить",
+	"apperence": "Внешний вид",
+	"chathistory": "История чата",
+	"appernceOptions": [
+		{ "label": "Светлый", "value": "light" },
+		{ "label": "Тёмный", "value": "dark" }
+	],
+	"chatHistoryOptions": [
+		{ "label": "0 дней", "value": "0day" },
+		{ "label": "30 дней", "value": "30days" }
+	]
 }

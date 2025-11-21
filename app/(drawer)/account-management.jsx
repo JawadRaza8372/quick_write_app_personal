@@ -15,6 +15,7 @@ import logoImage from "../../assets/images/logo.png";
 import CustomButton from "../../components/CustomButton";
 import CustomInput from "../../components/CustomInput";
 import DrawerLayout from "../../components/DrawerLayout";
+import ProfileSettingOption from "../../components/ProfileSettingOption";
 import UserInfo from "../../components/UserInfo";
 import { useLangStrings } from "../../hooks/useLangStrings";
 import { useThemeColors } from "../../hooks/useThemeColors";
@@ -27,14 +28,20 @@ import {
 import {
 	removeUserTokenfromStorage,
 	resetUser,
+	setTheme,
 } from "../../services/store/userSlice";
 
 const AccountManagement = () => {
+	const { theme } = useSelector((state) => state?.user);
 	const { textStrings } = useLangStrings();
 	const dispatch = useDispatch();
 	const [formData, setformData] = useState({
 		password: "",
 		confirmPassword: "",
+	});
+	const [userAccountOptions, setUserAccountOptions] = useState({
+		theme: "light",
+		dataDuration: "0day",
 	});
 	const router = useRouter();
 	const colors = useThemeColors();
@@ -47,6 +54,14 @@ const AccountManagement = () => {
 			flexDirection: "column",
 			gap: 20,
 			marginTop: 5,
+		},
+		optionsContainer: {
+			width: "100%",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "flex-start",
+			flexDirection: "column",
+			gap: 20,
 		},
 		mainInputContainer: {
 			width: "100%",
@@ -183,6 +198,28 @@ const AccountManagement = () => {
 							btnWidth={"100%"}
 							btnRadius={6}
 							onPressFun={customResetPasswordFun}
+						/>
+					</View>
+					<View style={styles.sepratorView} />
+					<View style={styles.optionsContainer}>
+						<ProfileSettingOption
+							value={theme}
+							setValue={(value) => {
+								dispatch(setTheme({ theme: value }));
+							}}
+							options={textStrings.appernceOptions}
+							label={textStrings.apperence}
+						/>
+						<ProfileSettingOption
+							label={textStrings.chathistory}
+							value={userAccountOptions.dataDuration}
+							setValue={(value) =>
+								setUserAccountOptions({
+									...userAccountOptions,
+									dataDuration: value,
+								})
+							}
+							options={textStrings.chatHistoryOptions}
 						/>
 					</View>
 					<View style={styles.sepratorView} />

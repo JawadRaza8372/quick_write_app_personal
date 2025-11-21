@@ -1,5 +1,6 @@
 import { useRouter } from "expo-router";
-import { Dimensions, FlatList, StyleSheet, Text, View } from "react-native";
+import { Dimensions, StyleSheet, View } from "react-native";
+import TermsRendror from "../components/TermsRendror";
 import TermsTopBar from "../components/TermsTopBar";
 import { useLangStrings } from "../hooks/useLangStrings";
 import { useThemeColors } from "../hooks/useThemeColors";
@@ -50,28 +51,7 @@ const PrivacyPolicy = () => {
 		<View style={styles.outerContainer}>
 			<TermsTopBar title={textStrings.sidePrivacyLabel} />
 
-			<View style={styles.mainContainer}>
-				<FlatList
-					showsVerticalScrollIndicator={false}
-					data={textStrings.privacyPolicyArry?.points}
-					ListHeaderComponent={
-						<Text style={[styles.subHeadingTxt, { marginBottom: 20 }]}>
-							{textStrings.privacyPolicyArry?.intro ?? ""}
-						</Text>
-					}
-					keyExtractor={(item, index) => index.toString()}
-					contentContainerStyle={styles.textContainer}
-					ItemSeparatorComponent={() => <View style={styles.sepratorView} />}
-					renderItem={({ item }) => (
-						<>
-							<Text style={styles.headingTxt}>{item?.title ?? ""}</Text>
-							<Text style={styles.subHeadingTxt}>
-								{item?.description ?? ""}
-							</Text>
-						</>
-					)}
-				/>
-			</View>
+			<TermsRendror data={textStrings.privacyPolicyArry} />
 		</View>
 	);
 };

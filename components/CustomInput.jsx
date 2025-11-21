@@ -39,7 +39,7 @@ const CustomInput = ({
 			height: 45,
 			width: "100%",
 			borderRadius: 6,
-			backgroundColor: colors.mainBgColor,
+			backgroundColor: colors.whiteOnly,
 			display: "flex",
 			alignItems: "center",
 			justifyContent: "flex-start",
@@ -52,7 +52,7 @@ const CustomInput = ({
 		inputMainStyle: {
 			fontSize: 12,
 			fontWeight: "500",
-			color: colors.darkColor,
+			color: colors.darkColorOnly,
 			paddingHorizontal: 15,
 			height: "100%",
 			flex: 1,

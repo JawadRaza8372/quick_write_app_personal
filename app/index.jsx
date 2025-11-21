@@ -1,25 +1,35 @@
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
 import { Dimensions, Image, StyleSheet, View } from "react-native";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import logoImage from "../assets/images/side-name-logo.png";
+import logoImage2 from "../assets/images/side-name-logo2.png";
+
 import AuthLayout from "../components/AuthLayout";
 import { getUserProfileApi } from "../services/endpoints";
 import {
 	getLangTypefromStorage,
+	getThemefromStorage,
 	getUserTokenfromStorage,
 	saveUserTokenToStorage,
 	setSelectedLang,
+	setTheme,
 	setUser,
 } from "../services/store/userSlice";
 const Splash = () => {
+	const { theme } = useSelector((state) => state?.user);
 	const dispatch = useDispatch();
 	const router = useRouter();
 	const fetchSavedTokenFromDb = async () => {
 		const { accessToken, refreshToken } = await getUserTokenfromStorage();
 		const result = await getLangTypefromStorage();
+		const result2 = await getThemefromStorage();
+
 		if (result) {
 			dispatch(setSelectedLang({ selectedLang: result ?? "en" }));
+		}
+		if (result2) {
+			dispatch(setTheme({ theme: result2 }));
 		}
 		if (accessToken && refreshToken) {
 			await getUserProfileApi()
@@ -53,7 +63,7 @@ const Splash = () => {
 			<View style={styles.imagContainer}>
 				<Image
 					style={styles.mainLogoStyle}
-					source={logoImage}
+					source={theme === "light" ? logoImage : logoImage2}
 				/>
 			</View>
 		</AuthLayout>

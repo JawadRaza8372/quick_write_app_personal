@@ -6,6 +6,7 @@ const initialState = {
 	resetPasswordToken: null,
 	billPayments: [],
 	selectedLang: "en",
+	theme: "light",
 };
 
 export const userSlice = createSlice({
@@ -30,6 +31,10 @@ export const userSlice = createSlice({
 			state.selectedLang = action.payload.selectedLang;
 			saveLangTypeToStorage(action.payload.selectedLang);
 		},
+		setTheme: (state, action) => {
+			state.theme = action.payload.theme;
+			saveThemeToStorage(action.payload.theme);
+		},
 		setBillPayments: (state, action) => {
 			state.billPayments = action.payload.billPayments;
 		},
@@ -37,6 +42,13 @@ export const userSlice = createSlice({
 });
 const saveLangTypeToStorage = async (lng) => {
 	await localStorage.setItem("quick-write-ai-lang", lng);
+};
+const saveThemeToStorage = async (lng) => {
+	await localStorage.setItem("quick-write-ai-app-theme", lng);
+};
+export const getThemefromStorage = async () => {
+	const fetchedLang = await localStorage.getItem("quick-write-ai-app-theme");
+	return fetchedLang ?? "light";
 };
 export const getLangTypefromStorage = async () => {
 	const fetchedLang = await localStorage.getItem("quick-write-ai-lang");
@@ -67,6 +79,7 @@ export const {
 	setSelectedLang,
 	setResetPasswordToken,
 	setBillPayments,
+	setTheme,
 } = userSlice.actions;
 
 export default userSlice.reducer;

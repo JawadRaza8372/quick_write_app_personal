@@ -101,7 +101,7 @@ function CustomDrawerContent(props) {
 		proTxt: {
 			fontSize: 14,
 			fontWeight: "500",
-			color: colors.mainBgColor,
+			color: colors.whiteOnly,
 			textAlign: "center",
 		},
 	});
@@ -117,7 +117,7 @@ function CustomDrawerContent(props) {
 	return (
 		<DrawerContentScrollView
 			{...props}
-			contentContainerStyle={{ flex: 1 }}>
+			contentContainerStyle={{ flex: 1, backgroundColor: colors.mainBgColor }}>
 			<View style={styles.topHeaderContainer}>
 				<UserAvtar
 					isEditable={false}
@@ -147,6 +147,22 @@ function CustomDrawerContent(props) {
 						</ImageBackground>
 					</TouchableOpacity>
 				) : null}
+				<TouchableOpacity
+					onPress={() => router.push({ pathname: "/subscription" })}>
+					<ImageBackground
+						style={styles.mainBgImage}
+						source={proBg}>
+						<View style={styles.mainContainer}>
+							<Text style={styles.proTxt}>
+								{user?.activePlan === "free"
+									? textStrings.goPro
+									: user?.activePlan === "pro"
+									? textStrings.upgrade
+									: textStrings.alreadyPremium}
+							</Text>
+						</View>
+					</ImageBackground>
+				</TouchableOpacity>
 			</View>
 
 			<View style={styles.childContainer}>
@@ -178,6 +194,7 @@ function CustomDrawerContent(props) {
 
 export default function Layout() {
 	const { textStrings } = useLangStrings();
+	const { theme } = useSelector((state) => state?.user);
 	const colors = useThemeColors();
 	const styles = StyleSheet.create({
 		drawerIcon: {
@@ -195,7 +212,8 @@ export default function Layout() {
 				drawerActiveBackgroundColor: colors.mainBgColor,
 				drawerInactiveBackgroundColor: colors.mainBgColor,
 				drawerActiveTintColor: colors.mainColor,
-				drawerInactiveTintColor: colors.backColor,
+				drawerInactiveTintColor:
+					theme === "light" ? colors.backColor : colors.whiteOnly,
 				drawerLabelStyle: {
 					fontSize: 16,
 					fontWeight: "400",
