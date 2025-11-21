@@ -1,0 +1,304 @@
+{
+	"changePasswordHeading": "Passwort ändern",
+	"createOnlineAccountHeading": "Konto erstellen",
+	"emailVerifiedHeading": "E-Mail erfolgreich\nverifiziert",
+	"forgotPasswordHeading": "Passwort\nvergessen",
+	"welcomeBackHeading": "Welkom",
+	"privacyHeading": "Wo Intelligenz\nauf Privatsphäre trifft",
+	"privacyDescription": "Denk vrij. Schrijf privé.",
+	"setNewPasswordHeading": "Neues Passwort festlegen",
+	"otpHeading": "Einmalpasswort-\nVerifizierung",
+	"successHeading": "Erfolg",
+	"welcomeHeading": "Willkommen bei\nQuickWrite AI",
+	"deleteAccountFailed": "Kontolöschung fehlgeschlagen",
+	"username": "Benutzername",
+	"fullName": "Vollständiger Name",
+	"enterFullName": "Vollständigen Namen eingeben",
+	"codeResendMsg": "Code erfolgreich erneut gesendet",
+	"codeResendFailed": "Code erneut senden fehlgeschlagen",
+	"otpVerificationFailed": "OTP-Verifizierung fehlgeschlagen",
+	"email": "E-Mail",
+	"passwordResetSuccess": "Passwort erfolgreich zurückgesetzt",
+	"didnotReciveCode": "Keinen Code erhalten?",
+	"didnothaveAccount": "Heb je geen account?",
+	"verifyTxt": "Verifizieren",
+	"backToLogin": "Zurück zur Anmeldung",
+	"sentResetLinkTo": "Wir haben einen Reset-Link gesendet an",
+	"enterCodeFromEmail": "Controleer uw inbox (en spam- of junkmap) op een e-mail met de titel \"Account Recovery OTP\" van info@quickwriteai.ai, voer vervolgens de 6-cijferige code hieronder in.",
+	"resendCode": "Code erneut senden",
+	"registerSuccess": "Registrierung erfolgreich! Bitte melden Sie sich an, um fortzufahren.",
+	"registerFailed": "Registrierung fehlgeschlagen",
+	"register": "Registreer alsjeblieft",
+	"enterEmail": "E-Mail-Adresse eingeben",
+	"paymentFailedMsg": "Zahlung fehlgeschlagen",
+	"paymentInitFailedMsg": "Zahlungsinitialisierung fehlgeschlagen",
+	"paymentSuccessMsg": "Zahlung erfolgreich",
+	"usernameLengthMessage": "Der vollständige Name muss mindestens 3 Zeichen lang sein",
+	"continue": "Weiter",
+	"resetPassword": "Passwort zurücksetzen",
+	"resetPasswordFailed": "Passwort zurücksetzen fehlgeschlagen",
+	"goPro": "Pro werden",
+	"upgrade": "Upgrade",
+	"alreadyPremium": "Sie haben bereits den Premium-Plan",
+	"logout": "Abmelden",
+	"updatePassword": "Passwort aktualisieren",
+	"deleteAccount": "Konto löschen",
+	"areYouSure": "Sind Sie sicher?",
+	"wantLogout": "Sie möchten sich abmelden.",
+	"deleteAccountDesc": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+	"cancel": "Abbrechen",
+	"delete": "Löschen",
+	"sideHomeLabel": "Startseite",
+	"sideProfileLabel": "Profil",
+	"getStarted": "Loslegen",
+	"processingPayment": "Zahlung wird verarbeitet",
+	"sideFaqLabel": "FAQs",
+	"sidePrivacyLabel": "Datenschutzerklärung",
+	"sideTermsLabel": "Geschäftsbedingungen",
+	"sideLangLabel": "Sprache",
+	"sideBillingLabal": "Abrechnungsinformationen",
+	"forgotDescription": "Typ alsjeblieft je e-mail en we sturen je een verificatiecode",
+	"passwordLengthMessage": "Passwort muss mindestens 7 Zeichen lang sein",
+	"confirmPasswordLengthMessage": "Bestätigungspasswort muss mindestens 7 Zeichen lang sein",
+	"inValidEmailMessage": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+	"bothFieldSamePassword": "Beide Passwortfelder müssen identisch sein",
+	"passwordSuccess": "Passwort erfolgreich geändert",
+	"passwordFailed": "Passwortänderung fehlgeschlagen",
+	"forgotPasswordFailed": "Passwort vergessen fehlgeschlagen",
+	"profileSetting": "Profileinstellungen",
+	"newPassword": "Neues Passwort",
+	"loginDesc": "Log alsjeblieft in",
+	"rememberMe": "Angemeldet bleiben",
+	"haveAnAccount": "Heb je al een account?",
+	"typeTextMsg": "Vraag maar raak",
+	"continueWithGoogle": "Mit Google anmelden",
+	"continueWithFcebook": "Mit Facebook anmelden",
+	"googleLoginFailed": "Google-Anmeldung fehlgeschlagen",
+	"facebookLoginFailed": "Facebook-Anmeldung fehlgeschlagen",
+	"loginFailed": "Anmeldung fehlgeschlagen",
+	"forgotPassword": "Passwort vergessen?",
+	"login": "Anmelden",
+	"createYourAccount": "Konto erstellen",
+	"password": "Passwort",
+	"confirmPassword": "Passwort bestätigen",
+	"enterPassword": "Passwort hier eingeben",
+	"reEnterPassword": "Passwort hier erneut eingeben",
+	"submit": "Abschicken",
+	"billingHistory": "Zahlungshistorie",
+	"noDataFound": "Keine Daten gefunden",
+	"paidFrom": "Bezahlt von",
+	"transactionId": "Transaktions-ID",
+	"succeeded": "Erfolgreich",
+	"joinedSmarterAndFew": "Sie gehören nun zu denjenigen, die\nklüger und sicherer schreiben.",
+	"paswwordChangedCongrats": "Glückwunsch! Ihr Passwort wurde\ngeändert. Klicken Sie auf Weiter, um sich anzumelden",
+	"frequentAskQuestion": "Häufig gestellte Fragen",
+	"termService": "Nutzungsbedingungen",
+	"chatWelcomeDsecription": "Die private KI, die alles löscht, sobald Sie fertig sind",
+	"startChatTxt": "Chat starten",
+	"textResponceBtn": "Textantwort",
+	"writeEmailBtn": "E-Mail schreiben",
+	"refineWritingBtn": "Text verfeinern",
+	"summarizeBtn": "Zusammenfassen",
+	"analyzeBtn": "Analysieren",
+	"lengthBtn": "Länge",
+	"writingProfileBtn": "Schreibprofil",
+	"toneBtn": "Ton",
+	"endSessionTxt": "Sitzung beenden – Daten löschen",
+	"trailEnded": "Testphase beendet",
+	"subscriptionExpired": "Abonnement abgelaufen",
+	"trailEndedDesc": "Uw gratis proefperiode is afgelopen. Verlies geen toegang tot uw privé AI. Upgrade nu om door te gaan.",
+	"subscriptionExpiredDesc": "Ihr Abonnement ist abgelaufen. Verlieren Sie nicht den Zugang zu Ihrem privaten Schreibassistenten. Erneuern Sie es jetzt, um weiterhin klüger und sicherer zu schreiben.",
+	"emailVerifiedDesc": "Ihre E-Mail wurde verifiziert. Sie können\nnun Ihr Passwort zurücksetzen.",
+	"subscriptionTitle": "Abonnement",
+	"subscriptionDesc": "Ein Plan. Alles, was Sie brauchen.",
+	"monthlyTxt": "Monatlich",
+	"yearlyTxt": "Jährlich",
+
+	"faqArray": [
+		{
+			"question": "Waarom wordt QuickWriteAI een 'Privé AI' genoemd?",
+			"answer": "QuickWriteAI helpt u denken, schrijven en creëren met volledige privacy. QuickWriteAI bevat de volgende meervoudige verwijderingen en een audit voor privacy:",
+			"points": [
+				"De knop “Sessie Beëindigen – Gegevens Verwijderen” verwijdert alle sessiegegevens uit geheugen en cache.",
+				"Geen langdurige opslag van gebruikers tekst, zelfs niet in onze eigen backend/database.",
+				"Alleen minimale metadata (latentie en token gebruik worden tijdelijk geregistreerd), geen inhoud.",
+				"Proxy backend architectuur voor alle API-aanroepen die via een beveiligde proxy lopen, waardoor uw inhoud beschermd blijft."
+			],
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Wordt mijn geschreven inhoud ergens opgeslagen of bewaard?",
+			"answer": "U kunt uw gegevens verwijderen met de knop 'Sessie beëindigen – Gegevens verwijderen'. Uw inhoud wordt automatisch uit onze systemen verwijderd na een bewaarperiode van 30 dagen van niet-tekst metadata (sessiehash, tijdstempels), die uitsluitend wordt gebruikt om de service-integriteit te handhaven, misbruik te detecteren en aan wettelijke vereisten te voldoen. Uw gegevens worden nooit gebruikt om AI-modellen te trainen, nooit gebruikt voor marketing en nooit gedeeld met derden.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Kan ik de app gratis gebruiken voordat ik me abonneer?",
+			"answer": "U kunt QuickWriteAI 7 dagen gratis uitproberen en zien hoe het u helpt uw ideeën, denken en schrijven te verbeteren.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Zal AI mijn baan vervangen?",
+			"answer": "QuickWriteAI is niet gebouwd om mensen te vervangen, het is gebouwd om u te empoweren. Naarmate meer bedrijven niet-AI professionals beginnen te vervangen door degenen met AI-vaardigheden, geloven we dat AI-tools uw capaciteiten moeten verbeteren, niet ermee concurreren. QuickWriteAI helpt u effectiever te denken, schrijven en creëren, terwijl uw gegevens volledig van uzelf blijven.",
+			"answer2": "",
+			"conslude": "Wij geloven dat AI het menselijk vermogen moet versterken en dat privacy essentieel is."
+		},
+		{
+			"question": "Zijn mijn geschriften en verstrekte informatie privé?",
+			"answer": "Ja, alle informatie die u verstrekt is privé. QuickWriteAI heeft meervoudige verwijderingen en een audit om privacy te garanderen.",
+			"answer2": "",
+			"conslude": ""
+		}
+	],
+
+	"privacyPolicyArry": {
+		"intro": "De missie van QuickWriteAI is om u een uitzonderlijke ervaring te bieden die u helpt slimmer, beter en sneller te schrijven. Bij QuickWriteAI is privacy een topprioriteit. Hier is een samenvatting van onze privacy praktijken:",
+		"points": [
+			{
+				"title": "Samenvatting Privacybeleid",
+				"description": "Gebruikersgericht: QuickWriteAI kan schrijfstijlen personaliseren op basis van de eerdere Geschreven Inhoud van de gebruiker, waardoor het highly tailored is voor elk individu.\nVersleuteling: Geschreven Inhoud wordt veilig opgeslagen met versleuteling.\nBetrouwbaar: Uw Geschreven Inhoud behoort toe aan u. Wij hebben geen toegang tot, delen of verkopen uw inhoud aan derden.\nBescherming van Persoonlijk Identificeerbare Informatie (PII): QuickWriteAI bewaart geen PII in Geschreven Inhoud. Elke gedetecteerde PII in Geschreven Inhoud wordt automatisch verwijderd om uw privacy te beschermen.\nGegevensbeveiliging: QuickWriteAI volgt strikte beveiligingsmaatregelen om ervoor te zorgen dat gevoelige informatie niet wordt opgeslagen of misbruikt.\n\nWij geloven dat uw QuickWriteAI-ervaring nooit uw privacy mag compromitteren. Sommige ideeën en communicatie zijn bedoeld om privé te blijven, en onze commitment is om uw controle over uw Geschreven Inhoud te waarborgen. Dit beleid is ook van toepassing op de QuickWriteAI-app en website."
+			},
+			{
+				"title": "Definities",
+				"description": "“Arbitration Agreement” betekent de verplichte individuele arbitragebepaling in Sectie 11(b).\n“Authorized User” betekent de werknemers, consultants, aannemers en agenten van de Klant (i) die door de Klant zijn geautoriseerd om toegang te krijgen tot en de Diensten te gebruiken onder de rechten die aan de Klant zijn verleend krachtens deze Overeenkomst en (ii) voor wie toegang tot de Diensten hieronder is gekocht.\n“Class Action/Jury Trial Waiver” betekent de class action/jury trial waiver-bepaling in Sectie 11(c).\n“Content/Written Content” verwijst naar de op tekst gebaseerde invoer, geüploade bijlage-informatie en uitvoer gegenereerd door het platform van QuickWriteAI met behulp van generatieve AI en geavanceerde taalmodellen. Alle Geschreven Inhoud wordt beschouwd als het exclusieve eigendom van de gebruiker, onderworpen aan deze voorwaarden.\n“Services” betekent de online en/of mobiele diensten, website en software die worden geleverd in of in verband met de door QuickWriteAI geleverde service.\n“User” or “Users” betekent alle bezoekers, gebruikers en anderen die toegang hebben tot de Diensten."
+			},
+			{
+				"title": "Informatie die we verzamelen",
+				"description": "Wanneer u een account instelt, verzamelen we de volgende informatie:\nGebruikersnaam\nE-mailadres of social media login-informatie\nBetalingsgegevens\nWe gebruiken deze informatie om onze diensten te bedrijven en te onderhouden.\nBijvoorbeeld:\nUw e-mailadres helpt ons updates over uw account te sturen.\nUw e-mailadres maakt authenticatie mogelijk voor extra beveiliging.\nUw betalingsinformatie stelt ons in staat abonnementskosten veilig te verwerken."
+			},
+			{
+				"title": "Toevoeging aan Privacybeleid: PII-bescherming & Gegevensretentie",
+				"description": "Om de privacy van gebruikers te beschermen, bewaart, slaat of verwerkt QuickWriteAI geen PII binnen Geschreven Inhoud. Dit omvat, maar is niet beperkt tot:\nVolledige namen\nContactgegevens (e-mailadressen, social media login-informatie)\nBetalingsinformatie\nWerkgeversdetails of gevoelige professionele gegevens"
+			},
+			{
+				"title": "Gegevensretentie en -verwijdering",
+				"description": "Gebruikerscontrole: QuickWriteAI bevat een functie waarmee gebruikers hun Geschreven Inhoud aan het einde van een sessie permanent kunnen verwijderen. Wanneer een gebruiker op de knop 'Sessie Beëindigen – Gegevens Verwijderen' klikt, wordt alle bijbehorende inhoud van die sessie permanent en onomkeerbaar verwijderd. QuickWriteAI bewaart geen sessiegebaseerde Geschreven Inhoud nadat deze verwijderingsactie is voltooid. Dit zorgt voor gebruikersprivacy en versterkt onze commitment aan veilige en efemere schrijfervaringen.\nGeen delen met derden: QuickWriteAI deelt Geschreven Inhoud onder geen enkele omstandigheid met derden, behalve zoals vereist door wet voor veiligheid, naleving of fraude-preventie.\nGegevensretentie: QuickWriteAI bewaart technische en interactiegegevens met betrekking tot het gebruik van zijn Diensten voor maximaal 30 dagen (de \"bewaarperiode\"). Deze bewaarperiode is uitsluitend voor doeleinden zoals het handhaven van service-integriteit, het detecteren van misbruik en het naleven van wettelijke verplichtingen. Na deze periode worden de bewaarde gegevens veilig uit onze systemen verwijderd. Dit proces is van toepassing op alle inhoud die niet anderszins permanent is verwijderd door de gebruiker via beschikbare verwijderingsfuncties in de app."
+			},
+			{
+				"title": "Opslag en privacy van uw Geschreven Inhoud",
+				"description": "We gebruiken uw Geschreven Inhoud alleen onder bepaalde omstandigheden, waaronder:\nVoor legitieme doeleinden, zoals het voorkomen van schade of zoals vereist door de wet voor veiligheid, naleving of fraude-preventie.\nUw Geschreven Inhoud wordt niet gebruikt voor AI-systeem/AI-model training, fine-tuning of optimalisatie.\nQuickWriteAI slaat uw Geschreven Inhoud niet op of bewaart deze niet, tenzij deze expliciet door de gebruiker wordt geëxporteerd. De 'Sessie Beëindigen – Gegevens Verwijderen' functie geeft gebruikers volledige controle om hun gegevens na elke sessie te verwijderen, en eventuele resterende technische of interactiegegevens worden automatisch verwijderd na de bewaarperiode."
+			},
+			{
+				"title": "QuickWriteAI past de volgende verwijderingslagen en verwijderingsaudit toe:",
+				"description": "Gebruikersinvoer (Veilige Invoer)\nDe gebruiker voert Geschreven Inhoud in, die onmiddellijk wordt getagd voor automatische verwijdering na de sessie.\nVerwerking via Backend Proxy\nVerzoeken worden veilig verwerkt via de backend van QuickWriteAI (geen blootstelling van client-side sleutels). Deze proxy-architectuur voorkomt API-sleutellekkage, verbergt gebruikersidentiteiten voor de provider en voegt een privacylaag toe die u ontkoppelt van uw verzoeken. Het is equivalent aan een privacy-firewall.\nEfemere Cache (Korte-TTL Geheugen)\nTijdelijke opslag voor het verwerken van reacties; automatisch gewist. Sla gebruikers Geschreven Inhoud niet op; als buffering nodig is voor nieuwe pogingen, wordt het alleen bewaard in kort-TTL geheugen/cache en wordt het verwijderd wanneer de gebruiker 'Sessie Beëindigen – Gegevens Verwijderen' selecteert. Dit is ontworpen om ervoor te zorgen dat uw Geschreven Inhoud geen permanent record wordt. Efemere sessietokens zorgen ervoor dat elke sessie een tijdelijke ID heeft die automatisch verloopt, waardoor eventuele resterende gecachte gegevens onmiddellijk worden gewist wanneer de sessie eindigt.\nSessie Beëindigen – Gegevens Verwijderen\nHier activeert de gebruiker volledige verwijdering. Alle gecachede Geschreven Inhoud en tijdelijke sessiegegevens worden onmiddellijk verwijderd.\nVerwijderingsaudit (Auditlaag)\nElke verwijderingssessie wordt geverifieerd door de verwijderingslogboeken te controleren en kan worden verwijderd, als er gegevens niet waren verwijderd.\n30-Dagen Retentie & Verwijdering\nAlleen geanonimiseerde metadata (geen Geschreven Inhoud) blijft 30 dagen behouden, daarna automatisch verwijderd."
+			},
+			{
+				"title": "Veiligheid & Beveiliging",
+				"description": "Uw contactgegevens worden gebruikt om:\nUw identiteit te verifiëren.\nServiceveiligheid en -beveiliging te verbeteren.\nFraude of ongeautoriseerde activiteit te voorkomen."
+			},
+			{
+				"title": "Facebook Gegevensverwijderingsbeleid en Instructies",
+				"description": "Als u zich heeft geregistreerd of ingelogd bij QuickWriteAI met Facebook:\nU kunt verwijdering van uw gegevens aanvragen door een van de onderstaande opties te volgen:\nIn-App Verzoek (Voorkeur)\nGa naar uw accountinstellingen in de QuickWriteAI-app of website.\nKlik op \"Sessie Beëindigen – Gegevens Verwijderen\" om onmiddellijk alle sessie-inhoud en bijbehorende informatie te verwijderen.\nDit verwijdert alle opgeslagen gegevens die aan uw Facebook-account zijn gekoppeld uit onze systemen.\n\nDirect Verzoek via E-mail\nStuur een e-mail naar info@quickwriteai.ai met het onderwerp: \"Facebook Gegevensverwijderingsverzoek\".\nVermeld uw volledige naam, het e-mailadres dat aan uw Facebook-account is gekoppeld en een korte notitie met het verzoek om gegevensverwijdering.\nEenmaal geverifieerd, zullen alle bijbehorende gegevens permanent van onze servers worden verwijderd binnen 7 werkdagen.\n\nOpmerking: QuickWriteAI slaat, deelt of traint niet op gebruikersinhoud. De enige gegevens die tijdelijk worden bewaard, zijn minimale metadata (zoals token gebruik of latentie) die nodig zijn voor systeemprestaties, die automatisch worden gewist na verwerking.\n\nAls u vragen heeft over gegevensprivacy of verwijdering, neem dan contact met ons op via info@quickwriteai.ai"
+			},
+			{
+				"title": "Contact met u opnemen",
+				"description": "We kunnen e-mail gebruiken om belangrijke informatie over uw account te communiceren, beveiligingswaarschuwingen te verstrekken of updates te delen."
+			},
+			{
+				"title": "Privacybeleid Updates",
+				"description": "We kunnen dit Privacybeleid wijzigen of bijwerken met of zonder kennisgeving aan u. U gaat akkoord met gebonden te zijn aan het Privacybeleid dat van kracht is op het moment dat u toegang krijgt tot en gebruikmaakt van de website en app van QuickWriteAI."
+			},
+			{
+				"title": "Hoe we u op de hoogte stellen:",
+				"description": "Bijwerken van de effectieve datum bovenaan dit Privacybeleid op onze website en app.\nAanvullende meldingen, zoals verklaringen op onze homepage of in-app waarschuwingen.\n\nDit beleid weerspiegelt onze toewijding aan transparantie, veiligheid en gebruikersprivacy. Als u vragen heeft, neem dan gerust contact met ons op via info@quickwriteai.ai"
+			}
+		]
+	},
+	"termsArray": {
+		"intro": "Diese Nutzungsbedingungen („Bedingungen“) regeln Ihren Zugang zu und die Nutzung der Dienste von QuickWriteAI, einschließlich unserer Website, mobilen Anwendungen und aller anderen Produkte oder Dienste, die auf diese Bedingungen verweisen (zusammen die „Dienste“). Durch die Nutzung der Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie nicht einverstanden sind, nutzen Sie die Dienste nicht.",
+		"points": [
+			{
+				"title": "1. Wichtige Informationen",
+				"description": "1.1 Schiedsvereinbarung und Verzicht auf Klassenaktionen\nDurch Zustimmung zu diesen Bedingungen erklären Sie sich damit einverstanden, alle Streitigkeiten mit QuickWriteAI durch eine bindende Einzelschlichtung beizulegen. Dies bedeutet, dass Sie auf jedes Recht verzichten, Streitigkeiten von einem Richter oder einer Jury entscheiden zu lassen, und dass Sie keine Ansprüche gegen QuickWriteAI im Rahmen einer Klassenaktion oder eines anderen Repräsentativverfahrens geltend machen können. Bitte lesen Sie den Abschnitt „Streitbeilegung“ unten für weitere Details."
+			},
+			{
+				"title": "2. Definitionen",
+				"description": "„Arbitration Agreement“ bedeutet die verbindliche individuelle Schiedsvereinbarung in Abschnitt 11(b).\n„Authorized User“ bedeutet die Mitarbeiter, Berater, Vertragspartner und Vertreter des Kunden (i) die vom Kunden zur Nutzung der Services berechtigt sind und (ii) für den der Zugang zu den Services hier erworben wurde.\n„Class Action/Jury Trial Waiver“ bedeutet der Verzicht auf Klassenaktionen und Geschworenengerichtsverfahren in Abschnitt 11(c).\n„Services“ bedeutet die Online- und/oder Mobilservices, die Website und die Software, die im Zusammenhang mit dem von QuickWriteAI bereitgestellten Service bereitgestellt werden.\n„User“ or „Users“ bedeutet alle Besucher, Benutzer und andere, die auf die Services zugreifen.\n„Written Content“ bezieht sich auf die textbasierten Ausgaben, die von der QuickWriteAI-Plattform unter Verwendung von generativer KI und fortschrittlichen Sprachmodellen generiert werden. Dies umfasst Entwürfe, Dokumente oder anderes schriftliches Material, das durch die Nutzung unserer Dienste erstellt wurde und das an die Eingaben des Benutzers angepasst und zugeschnitten ist. Alle Textinhalte gelten als alleiniges Eigentum des Benutzers, vorbehaltlich dieser Bedingungen."
+			},
+			{
+				"title": "3. Eigentum an Eingaben und Textinhalten",
+				"description": "3.1 Benutzereigentum\nBenutzer behalten das vollständige Eigentum sowohl an den Eingaben durch Prompts, die Sie den Diensten bereitstellen („Eingaben“), als auch an den Textinhalten, die von den Diensten auf der Grundlage Ihrer Eingaben generiert werden. QuickWriteAI erhebt keinen Anspruch auf Eigentumsrechte an Ihren Eingaben oder Textinhalten.\n3.2 Verantwortung für Eingaben und Textinhalte\nAls Eigentümer Ihrer Eingaben und Textinhalte sind Sie allein verantwortlich für:\nSicherstellung, dass Ihre Eingaben und Textinhalte keine anwendbaren Gesetze, Vorschriften oder Rechte Dritter (einschließlich geistiger Eigentumsrechte) verletzen.\nDie Behandlung aller Ansprüche, Streitigkeiten oder Probleme, die sich aus Ihren Eingaben oder Textinhalten ergeben.\nSicherstellung, dass Ihre Eingaben kein Urheberrecht, geistiges Eigentum oder andere anwendbare Gesetze verletzen.\nHaftungsausschluss: QuickWriteAI überwacht oder überprüft keine Benutzereingaben auf Compliance mit rechtlichen Anforderungen. Benutzer tragen die alleinige Haftung für ihre Eingaben und alle darauf basierenden generierten Inhalte.\nQuickWriteAI haftet nicht für Streitigkeiten oder rechtliche Probleme im Zusammenhang mit Ihren Eingaben oder Textinhalten.\n3.3 Sitzungsbasierte Löschung\nBenutzer können wählen, die Eingaben und Textinhalte ihrer Sitzung endgültig zu löschen, indem sie die Funktion „Sitzung beenden & löschen“ verwenden. Nach der Aktivierung werden alle zugehörigen Inhalte unwiderruflich aus dem System von QuickWriteAI entfernt. QuickWriteAI bewahrt auch bestimmte technische und Interaktionsdaten, die während der Nutzung der Dienste generiert werden, für bis zu 30 Tage auf (die „Aufbewahrungsfrist“). Diese Aufbewahrungsfrist dient ausschließlich der Aufrechterhaltung der operationellen Integrität, der Verhinderung von Missbrauch und der Erfüllung gesetzlicher oder Compliance-Anforderungen. Nach der Aufbewahrungsfrist werden solche Daten automatisch und sicher aus unseren Systemen gelöscht."
+			},
+			{
+				"title": "4. Verwendung von QuickWriteAI",
+				"description": "4.1 Berechtigung\nSie müssen mindestens 13 Jahre alt sein, um QuickWriteAI zu nutzen. Wenn Sie in Ihrer Gerichtsbarkeit nicht volljährig sind, benötigen Sie die Erlaubnis Ihres Elternteils oder gesetzlichen Vormunds, um die Dienste zu nutzen.\n4.2 Verbotene Aktivitäten\nSie erklären sich damit einverstanden, nicht:\nDie Dienste zu nutzen, um Textinhalte zu erstellen oder zu verbreiten, die illegal, schädlich sind oder die Rechte anderer verletzen.\nZu versuchen, den Betrieb der Dienste zu stören oder unbefugt Zugang zu einem Teil der Dienste zu erlangen.\nDie Dienste für einen anderen Zweck als den beabsichtigten zu nutzen."
+			},
+			{
+				"title": "5. Lizenz zur Nutzung der Dienste",
+				"description": "5.1 Eingeschränkte Lizenz\nQuickWriteAI gewährt Ihnen eine beschränkte, nicht exklusive, nicht übertragbare und widerrufliche Lizenz, auf die Dienste zuzugreifen und sie für persönliche oder interne Geschäftszwecke zu nutzen, vorbehaltlich dieser Bedingungen.\n5.2 Einschränkungen\nSie dürfen nicht:\nKopieren, modifizieren, verteilen oder abgeleitete Werke aus einem Teil der Dienste erstellen.\nReverse Engineering betreiben, dekompilieren oder versuchen, den Quellcode der Dienste zu extrahieren.\nDie Dienste nutzen, um mit QuickWriteAI zu konkurrieren oder einen ähnlichen Dienst zu erstellen.\nQuickWriteAI behält sich alle Rechte vor, die nicht ausdrücklich in diesen Bedingungen gewährt werden."
+			},
+			{
+				"title": "6. Schutz des geistigen Eigentums",
+				"description": "QuickWriteAI gibt keine Zusicherungen oder Garantien bezüglich der Originalität oder Nichtverletzung von Textinhalten. Als Benutzer sind Sie allein verantwortlich für:\nSicherstellung, dass Ihre Eingaben und Textinhalte die geistigen Eigentumsrechte anderer nicht verletzen.\nDie Behandlung aller Ansprüche, die sich aus Ihren Textinhalten ergeben.\nQuickWriteAI lehnt jede Haftung für Urheberrechts- oder geistige Eigentumsverletzungen ab, die sich aus der Nutzung der Dienste ergeben."
+			},
+			{
+				"title": "7. Zahlungen, Rückerstattungen und Kündigung",
+				"description": "7.1 Zahlungen\nDurch den Kauf eines Abonnements oder anderer Dienste von QuickWriteAI erklären Sie sich damit einverstanden, alle anfallenden Gebühren gemäß den zum Zeitpunkt des Kaufs dargestellten Bedingungen zu zahlen. Alle Zahlungen sind endgültig und nicht erstattungsfähig.\n7.2 Keine Rückerstattungen\nZahlungen für QuickWriteAI sind nicht erstattungsfähig. Wenn Sie aus irgendeinem Grund mit QuickWriteAI unzufrieden sind, teilen Sie uns dies bitte mit. Kontaktieren Sie uns per E-Mail: info@quickwriteai.ai.\n7.3 Kündigungsrichtlinie\nIhre jährlichen und monatlichen Pläne verlängern sich automatisch, bis Sie sie kündigen. Sie können Ihren Plan jederzeit kündigen, indem Sie im Dashboard „Kontoverwaltung“ auf „Abonnement kündigen“ klicken."
+			},
+			{
+				"title": "8. Streitbeilegung",
+				"description": "8.1 Bindende Schiedsgerichtsbarkeit\nAlle Streitigkeiten, die sich aus diesen Bedingungen ergeben, werden durch eine bindende Schiedsgerichtsbarkeit beigelegt, die von einer anerkannten Schiedsorganisation verwaltet wird. Die Schiedsgerichtsbarkeit findet in der Gerichtsbarkeit statt, in der QuickWriteAI seinen Sitz hat, und wird in englischer Sprache durchgeführt.\n8.2 Verzicht auf Klassenaktionen und Einzelklagen\nSie erklären sich damit einverstanden, auf jedes Recht zu verzichten, an einer Klassenaktion, einem Klassen-Schiedsverfahren oder einem anderen Repräsentativverfahren im Zusammenhang mit den Nutzungsbedingungen, der Datenschutzrichtlinie oder gegen QuickWriteAI teilzunehmen. Kein Schiedsverfahren oder Verfahren darf ohne vorherige schriftliche Zustimmung aller beteiligten Parteien mit einem anderen kombiniert werden."
+			},
+			{
+				"title": "9. Haftungsbeschränkung",
+				"description": "Im gesetzlich zulässigen Umfang haften QuickWriteAI und seine verbundenen Unternehmen, leitenden Angestellten, Mitarbeiter und Lizenzgeber nicht für indirekte, zufällige, besondere, Folgeschäden oder Strafschäden oder für entgangene Gewinne oder Einnahmen, ob direkt oder indirekt entstanden, oder für Datenverlust, Nutzungsausfall, Goodwill oder andere immaterielle Verluste, die sich ergeben aus:\nIhrer Nutzung der oder Unfähigkeit zur Nutzung der Dienste;\nUnbefugtem Zugriff auf Ihre Textinhalte oder Ihr Konto; und\nAllen Ansprüchen im Zusammenhang mit Urheberrecht, geistigem Eigentum oder gelöschten Sitzungsdaten, die der Benutzer mit der Funktion „Sitzung beenden & löschen“ gelöscht hat."
+			},
+			{
+				"title": "10. Änderungen dieser Bedingungen",
+				"description": "QuickWriteAI behält sich das Recht vor, diese Bedingungen jederzeit zu aktualisieren oder zu ändern. Wenn wir wesentliche Änderungen vornehmen, werden wir Sie durch die Dienste oder auf andere Weise benachrichtigen. Indem Sie die Dienste nach Inkrafttreten der Änderungen weiter nutzen, erklären Sie sich mit den überarbeiteten Bedingungen einverstanden."
+			},
+			{
+				"title": "11. Anwendbares Recht",
+				"description": "Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der QuickWriteAI seinen Sitz hat, ohne Berücksichtigung seiner kollisionsrechtlichen Grundsätze."
+			},
+			{
+				"title": "12. Kontaktieren Sie uns",
+				"description": "Wenn Sie Fragen zu diesen Bedingungen oder den Diensten haben, kontaktieren Sie uns bitte: info@quickwriteai.ai.ai\nDurch die Nutzung von QuickWriteAI bestätigen Sie, dass Sie diese Nutzungsbedingungen gelesen und akzeptiert haben."
+			}
+		]
+	},
+	"aiPrompts": {
+		"textResponse": "Schrijf een tekstbericht antwoord op",
+		"writeEmail": "Schrijf een e-mail",
+		"refineWriting": "Verfijn dit",
+		"summarize": "Vat dit samen",
+		"analyze": "Analyseer dit"
+	},
+	"subscriptionsArray": [
+		{
+			"name": "Pro-Plan",
+			"value": "pro",
+			"price": "7.99",
+			"priceSuffix": "Mo.",
+			"description": "Schneller. Besser. Privat.",
+			"points": [
+				"Denk, ontwerp of verfijn met volledige controle",
+				"Privacy-first ontwerp",
+				"Verifieerbaar verwijderingsaudit - transparantie waarop u kunt vertrouwen",
+				"Veilige AI voor werk en leven, beschermd door meervoudige verwijdering"
+			]
+		},
+		{
+			"name": "Premium-Plan",
+			"value": "premium",
+			"price": "95",
+			"priceSuffix": "Jahr",
+			"description": "Schneller. Besser. Privat.",
+			"points": [
+				"Denk, ontwerp of verfijn met volledige controle",
+				"Privacy-first ontwerp",
+				"Verifieerbaar verwijderingsaudit - transparantie waarop u kunt vertrouwen",
+				"Veilige AI voor werk en leven, beschermd door meervoudige verwijdering"
+			]
+		}
+	],
+	"acknowldgeFirst": "Door verder te gaan, ga je akkoord met de ",
+	"acknowldgeTerm": "Servicevoorwaarden ",
+	"acknowldgeThier": "van QuickWriteAI en erken je hun ",
+	"acknowldgePrivacy": "Privacybeleid.",
+	"acknowldgeSecond": "QuickWriteAI verbiedt het gebruik van zijn product/dienst voor schade, zoals het produceren van gewelddadige, beledigende of misleidende inhoud.",
+	"fewNotes": "Een paar opmerkingen voordat we beginnen:",
+	"acknowldgeContinue": "Bevestigen en doorgaan"
+}

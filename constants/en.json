@@ -1,0 +1,303 @@
+{
+	"changePasswordHeading": "Change Password",
+	"createOnlineAccountHeading": "Create your account",
+	"emailVerifiedHeading": "Email Verified\nSuccessfully",
+	"forgotPasswordHeading": "Forgot your\npassword",
+	"welcomeBackHeading": "Welcome",
+	"privacyHeading": "Where Intelligence\nMeets Privacy",
+	"privacyDescription": "Think Freely. Write Privately.",
+	"setNewPasswordHeading": "Set new password",
+	"otpHeading": "One-Time Password\nVerification",
+	"successHeading": "Success",
+	"welcomeHeading": "Welcome to\nQuickWrite AI",
+	"deleteAccountFailed": "Delete Account Failed",
+	"username": "Username",
+	"fullName": "Full Name",
+	"enterFullName": "Enter Full Name",
+	"codeResendMsg": "Code resent successfully",
+	"codeResendFailed": "Resend Code Failed",
+	"otpVerificationFailed": "OTP Verification Failed",
+	"email": "Email",
+	"passwordResetSuccess": "Password Reset Successful",
+	"didnotReciveCode": "Didn’t receive a code?",
+	"didnothaveAccount": "Don’t have an account?",
+	"verifyTxt": "Verify",
+	"backToLogin": "Back to login",
+	"sentResetLinkTo": "We sent a reset link to",
+	"enterCodeFromEmail": "Please check your inbox (and spam or junk folder) for an email titled “Account Recovery OTP” from info@quickwriteai.ai, then enter the 6-digit code below.",
+	"resendCode": "Resend Code",
+	"registerSuccess": "Register Success! Please login to continue.",
+	"registerFailed": "Register Failed",
+	"register": "Please register",
+	"enterEmail": "Enter your email",
+	"paymentFailedMsg": "Payment Failed",
+	"paymentInitFailedMsg": "Payment initailization Failed",
+	"paymentSuccessMsg": "Payment successfull",
+	"usernameLengthMessage": "Full Name must be at least 3 characters long",
+	"continue": "Continue",
+	"resetPassword": "Reset Password",
+	"resetPasswordFailed": "Reset Password Failed",
+	"goPro": "Go Pro",
+	"upgrade": "Upgrade",
+	"alreadyPremium": "You are already on the Premium Plan",
+	"logout": "Logout",
+	"updatePassword": "Update Password",
+	"deleteAccount": "Delete Acoount",
+	"areYouSure": "Are you sure?",
+	"wantLogout": "You want to logout.",
+	"deleteAccountDesc": "Are you sure you want to delete your account? This action cannot be undone.",
+	"cancel": "Cancel",
+	"delete": "Delete",
+	"sideHomeLabel": "Home",
+	"sideProfileLabel": "Profile",
+	"getStarted": "Get Started",
+	"processingPayment": "Processing Payment",
+	"sideFaqLabel": "Faqs",
+	"sidePrivacyLabel": "Privacy Policy",
+	"sideTermsLabel": "Terms and Conditions",
+	"sideLangLabel": "Language",
+	"sideBillingLabal": "Billing Info",
+	"forgotDescription": "Please type your email and we will send you a verification code",
+	"passwordLengthMessage": "Password must be at least 7 characters long",
+	"confirmPasswordLengthMessage": "Confirm Password must be at least 7 characters long",
+	"inValidEmailMessage": "Please enter a valid email address",
+	"bothFieldSamePassword": "Both Password Fields must have same passeword",
+	"passwordSuccess": "Password Change Successful",
+	"passwordFailed": "Password Change Successful",
+	"forgotPasswordFailed": "Forgot Password Failed",
+	"profileSetting": "Profile Setting",
+	"newPassword": "New Password",
+	"loginDesc": "Please sign in",
+	"rememberMe": "Remember me",
+	"haveAnAccount": "Already have an account?",
+	"typeTextMsg": "Ask anything",
+	"continueWithGoogle": "Log in With Google",
+	"continueWithFcebook": "Log in With Facebook",
+	"googleLoginFailed": "Google Login Failed",
+	"facebookLoginFailed": "Facebook Login Failed",
+	"loginFailed": "Login Failed",
+	"forgotPassword": "Forgot Password?",
+	"login": "Login",
+	"createYourAccount": "Create your account",
+	"password": "Password",
+	"confirmPassword": "Confirm Password",
+	"enterPassword": "Enter your password here",
+	"reEnterPassword": "Re-Enter your password here",
+	"submit": "Submit",
+	"billingHistory": "Billing History",
+	"noDataFound": "No Data Found",
+	"paidFrom": "Paid From",
+	"transactionId": "Transaction ID",
+	"succeeded": "Succeeded",
+	"joinedSmarterAndFew": "You’ve joined the few who write\nsmarter and safer.",
+	"paswwordChangedCongrats": "Congratulations! Your password has\nbeen changed. Click continue to login",
+	"frequentAskQuestion": "Frequently Asked Questions",
+	"termService": "Terms of Service",
+	"chatWelcomeDsecription": "The private AI that auto-deletes everything once you’re done",
+	"startChatTxt": "Start Chat",
+	"textResponceBtn": "Text a Response",
+	"writeEmailBtn": "Write Email",
+	"refineWritingBtn": "Refine Writing",
+	"summarizeBtn": "Summarize",
+	"analyzeBtn": "Analyze",
+	"lengthBtn": "Length",
+	"writingProfileBtn": "Writing Profile",
+	"toneBtn": "Tone",
+	"endSessionTxt": "End Session – Delete Data",
+	"trailEnded": "Trial ended",
+	"subscriptionExpired": "Subscription expired",
+	"trailEndedDesc": "Your free trial has ended. Don’t lose access to your private AI. Please upgrade now to continue.",
+	"subscriptionExpiredDesc": "Your subscription has expired. Don’t lose access to your private writing assistant. Renew now to continue writing smarter and safer.",
+	"emailVerifiedDesc": "Your email has been Verified. Now you\ncan reset your password.",
+	"subscriptionTitle": "Subscription",
+	"subscriptionDesc": "One Plan. Everything You Need.",
+	"monthlyTxt": "Monthly",
+	"yearlyTxt": "Yearly",
+
+	"faqArray": [
+		{
+			"question": "Why is QuickWriteAI called a “Private AI”?",
+			"answer": "QuickWriteAI helps you think, write, and create with total privacy. QuickWriteAI contains the following multi-layer deletions and an audit for privacy:",
+			"points": [
+				"“End Session – Delete Data” button deletes all session data from memory and cache.",
+				"No long-term storage of user text, not even in our own backend/database.",
+				"Minimal metadata only (latency and token usage are temporarily recorded), no content.",
+				"Proxy backend architecture for all API calls run through a secure proxy, keeping your content protected."
+			],
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Is any of my writing content saved or stored anywhere?",
+			"answer": "You can delete your data with the “End Session – Delete Data” button. Your content is automatically deleted from our systems after a 30-day retention period of non-text metadata (session hash, timestamps), which is solely to maintain service integrity, detect abuse, and meet legal requirements. Your data is never used to train AI models, never used for marketing, and never shared with third parties.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Can I use the app for free before subscribing?",
+			"answer": "You can try QuickWriteAI free for 7 days and see how it helps you improve your ideas, thinking, and writing.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Will AI replace my job?",
+			"answer": "QuickWriteAI wasn’t built to replace people, it’s built to empower you. As more companies begin replacing non-AI professionals with those who have AI skills, we believe AI tools should enhance your capabilities, not compete with them. QuickWriteAI helps you think, write, and create more effectively, while keeping your data completely your own.",
+			"answer2": "",
+			"conslude": "We believe AI should amplify human capability and that privacy is essential."
+		},
+		{
+			"question": "Is my writing and information provided private?",
+			"answer": "Yes, all information you provide is private. QuickWriteAI has multi-layer deletions and an audit to ensure privacy.",
+			"answer2": "",
+			"conslude": ""
+		}
+	],
+	"privacyPolicyArry": {
+		"intro": "QuickWriteAI’s mission is to provide you with an exceptional experience that helps you write smarter, better, and faster. At QuickWriteAI, privacy is a top priority. Here's a summary of our privacy practices:",
+		"points": [
+			{
+				"title": "Privacy Policy Summary",
+				"description": "User-Centered: QuickWriteAI can personalize writing styles based on the user’s past Written Content, making it highly tailored to each individual.\nEncryption: Written Content is stored securely with encryption.\nTrustworthy: Your Written Content belongs to you. We don’t access, share, or sell your content to third parties.\nPersonally Identifiable Information (PII) Protection: QuickWriteAI does not retain PII in Written Content. Any PII detected in Written Content is automatically deleted to safeguard your privacy.\nData Security: QuickWriteAI follows strict security measures to ensure that sensitive information is not stored or misused.\n\nWe believe your QuickWriteAI experience should never compromise your privacy. Some ideas and communications are meant to remain private, and our commitment is to ensure your control over your Written Content. This policy also applies to the QuickWriteAI app and website."
+			},
+			{
+				"title": "Definitions",
+				"description": "“Arbitration Agreement” means the mandatory individual arbitration provision in Section 11(b).\n“Authorized User” means Customer’s employees, consultants, contractors, and agents (i) who are authorized by Customer to access and use the Services under the rights granted to Customer pursuant to this Agreement and (ii) for whom access to the Services has been purchased hereunder.\n“Class Action/Jury Trial Waiver” means the class action/jury trial waiver provision in Section 11(c).\n“Content/Written Content” refers to the text-based inputs, uploaded attachment information, and outputs generated by QuickWriteAI's platform using generative AI and advanced language models. All Written Content is considered the sole property of the user, subject to these terms.\n“Services” means the online and/or mobile services, web site, and software provided on or in connection with the service provided by QuickWriteAI.\n“User” or “Users” means all visitors, users, and others who access the Services."
+			},
+			{
+				"title": "Information We Collect",
+				"description": "When you set up an account, we collect the following information:\nUsername\nEmail address or social media login information\nPayment details\nWe use this information to operate and maintain our services.\nFor example:\nYour email address helps us send updates about your account.\nYour email address enables authentication for added security.\nYour payment information allows us to process subscription fees securely."
+			},
+			{
+				"title": "Privacy Policy Addition: PII Safeguards & Data Retention ",
+				"description": "To safeguard user privacy, QuickWriteAI does not retain, store, or process any PII within Written Content. This includes, but is not limited to:\nFull names\nContact details (email addresses, login social media information)\nPayment information\nEmployer details or sensitive professional data"
+			},
+			{
+				"title": "Data Retention and Deletion",
+				"description": "User Control: QuickWriteAI includes a feature that allows users to permanently delete their Written Content at the end of a session. When a user clicks the 'End Session – Delete Data' button, all associated content from that session is permanently and irreversibly deleted. QuickWriteAI does not retain session-based Written Content after this deletion action is completed. This ensures user privacy and reinforces our commitment to secure and ephemeral writing experiences.\nNo Third-Party Sharing: QuickWriteAI does not share Written Content with third parties under any circumstances, except as required by law for security, compliance, or fraud prevention.\nData Retention: QuickWriteAI retains technical and interaction data related to the use of its Services for up to 30 days (the “retention period”). This retention period is solely for purposes such as maintaining service integrity, detecting abuse, and complying with legal obligations. After this period, the retained data is securely deleted from our systems. This process applies to all content not otherwise permanently deleted by the user through available in-app deletion features."
+			},
+			{
+				"title": "Storage and Privacy of Your Written Content",
+				"description": "We only use your Written Content under certain circumstances, which include:\nFor legitimate purposes, such as preventing harm or as required by law for security, compliance, or fraud prevention.\nYour Written Content is not used for AI system/AI model training, fine-tuning, or optimization.\nQuickWriteAI does not store or retain your Written Content unless it is explicitly exported by the user. The 'End Session – Delete Data' function gives users full control to remove their data after each session, and any remaining technical or interaction data is automatically deleted after the retention period."
+			},
+			{
+				"title": "QuickWriteAI applies the following deletion layers and deletion audit:",
+				"description": "User Input (Secure Entry)\nThe user enters Written Content, which is immediately tagged for automatic deletion after the session.\nProcessing via Backend Proxy\nRequests are securely processed through QuickWriteAI’s backend (no client-side key exposure). This proxy architecture prevents API key leakage, hides user identities from the provider, and adds a privacy layer that decouples you from your requests. It’s equivalent to a privacy firewall.\nEphemeral Cache (Short-TTL Memory)\nTemporary storage for processing responses; automatically cleared. Do not store user Written Content; if buffering is required for retries, it is kept only in short-TTL memory/cache and purged when the user selects 'End Session – Delete Data.' This is designed to ensure your Written Content does not become a permanent record. Ephemeral session tokens ensure each session has a temporary ID that automatically expires, instantly clearing any remaining cached data when the session ends.\nEnd Session – Delete Data\nThis is where the user triggers full deletion. All cached Written Content and temporary session data are purged immediately.\nDeletion Audit (Audit Layer)\nEach delete session is verified by auditing the deletion logs and can be deleted, if any data wasn’t purged.\n30-Day Retention & Deletion\nOnly anonymized metadata (no Written Content) remains for 30 days, then auto-deleted."
+			},
+			{
+				"title": "Safety & Security",
+				"description": "Your contact information is used to:\nVerify your identity.\nEnhance service safety and security.\nPrevent fraud or unauthorized activity."
+			},
+			{
+				"title": "Facebook Data Deletion Policy and Instructions",
+				"description": "If you signed up or logged in to QuickWriteAI using Facebook:\nYou can request deletion of your data by following one of the options below:\nIn-App Request (Preferred)\nGo to your account settings in the QuickWriteAI app or website.\nClick “End Session – Delete Data” to immediately delete all session content and associated information.\nThis will remove any stored data linked to your Facebook account from our systems.\n\nDirect Request via Email\nSend an email to info@quickwriteai.ai with the subject line: “Facebook Data Deletion Request.”\nInclude your full name, the email address associated with your Facebook account, and a brief note requesting data deletion.\nOnce verified, all associated data will be permanently deleted from our servers within 7 business days.\n\nNote: QuickWriteAI does not store, share, or train on user content. The only data temporarily held is minimal metadata (such as token usage or latency) necessary for system performance, which is automatically cleared after processing.\n\nIf you have any questions about data privacy or deletion, please contact us at info@quickwriteai.ai"
+			},
+			{
+				"title": "Contacting You",
+				"description": "We may use email to communicate important information about your account, provide security alerts, or share updates."
+			},
+			{
+				"title": "Privacy Policy Updates",
+				"description": "We may amend or update this Privacy Policy with or without notice to you. You agree to be bound by the Privacy Policy that is in effect at the time you access and use QuickWriteAI’s website and app."
+			},
+			{
+				"title": "How We Notify You:",
+				"description": "Updating the effective date at the top of this Privacy Policy on our website and app.\nAdditional notifications, such as statements on our homepage or in-app alerts.\n\nThis policy reflects our commitment to transparency, security, and user privacy. If you have questions, please feel free to contact us at info@quickwriteai.ai"
+			}
+		]
+	},
+	"termsArray": {
+		"intro": "These Terms of Service (“Terms”) govern your access to and use of QuickWriteAI’s services, including our website, mobile applications, and any other products or services that link to these Terms (collectively, the “Services”). By using the Services, you agree to these Terms. If you do not agree, do not use the Services",
+		"points": [
+			{
+				"title": "1. Important Information",
+				"description": "1.1 Arbitration Agreement and Class Action Waiver\nBy agreeing to these Terms, you agree to resolve any disputes with QuickWriteAI through binding arbitration on an individual basis. This means you waive any right to have disputes decided by a judge or jury and that you may not bring claims against QuickWriteAI as part of a class action or other representative proceeding. Please read the “”Dispute Resolution” section below for more details."
+			},
+			{
+				"title": "2. Definitions",
+				"description": "“Arbitration Agreement” means the mandatory individual arbitration provision in Section 11(b).\n“Authorized User” means Customer’s employees, consultants, contractors, and agents (i) who are authorized by Customer to access and use the Services under the rights granted to Customer pursuant to this Agreement and (ii) for whom access to the Services has been purchased hereunder.\n“Class Action/Jury Trial Waiver” means the class action/jury trial waiver provision in Section 11(c).\n“Services” means the online and/or mobile services, web site, and software provided on or in connection with the service provided by QuickWriteAI.\n“User” or “Users” means all visitors, users, and others who access the Services.\n“Written Content” refers to the text-based outputs generated by QuickWriteAI's platform using generative AI and advanced language models. This includes drafts, documents, or any other written material created through the use of our Services, which are customized and tailored to the user's inputs. All Written Content is considered the sole property of the user, subject to these Terms"
+			},
+			{
+				"title": "3. Ownership of Inputs and Written Content",
+				"description": "3.1 User Ownership\nUsers retain full ownership of both the inputs through prompts that you provide to the Services (“Inputs”) and the Written Content generated by the Services based on your Inputs. QuickWriteAI does not claim any ownership rights over your Inputs or Written Content.\n3.2 Responsibility for Inputs and Written Content\nAs the owner of your Inputs and Written Content, you are solely responsible for:\nEnsuring that your Inputs and Written Content do not violate any applicable laws, regulations, or third-party rights (including intellectual property rights).\nHandling any claims, disputes, or issues arising from your Inputs or Written Content.\nEnsuring that your Inputs do not violate any copyright, intellectual property, or other applicable laws. \nDisclaimer: QuickWriteAI does not monitor or verify user Inputs for compliance with legal requirements. Users assume all liability for their Inputs and any content generated based on them.\nQuickWriteAI is not liable for any disputes or legal issues related to your Inputs or Written Content.\n3.3 Session-Based Deletion\nUsers may choose to permanently delete their session’s Inputs and Written Content using the “End Session & Delete” feature. Once activated, all related content is irreversibly removed from QuickWriteAI’s system. QuickWriteAI also retains certain technical and interaction data generated during use of the Services for up to 30 days (the “retention period”). This retention period is strictly for maintaining operational integrity, preventing misuse, and meeting legal or compliance requirements. After the retention period, such data is automatically and securely deleted from our systems."
+			},
+			{
+				"title": "4. Using QuickWriteAI",
+				"description": "4.1 Eligibility\nYou must be at least 13 years old to use QuickWriteAI. If you are under the age of majority in your jurisdiction, you must have your parent’s or legal guardian’s permission to use the Services.\n4.2 Prohibited Activities\nYou agree not to:\nUse the Services to create or distribute Written Content that is illegal, harmful, or violates the rights of others.\nAttempt to disrupt the operation of the Services or gain unauthorized access to any part of the Services.\nUse the Services for any purpose other than their intended use."
+			},
+			{
+				"title": "5. License to Use the Services",
+				"description": "5.1 Limited License\nQuickWriteAI grants you a limited, non-exclusive, non-transferable, and revocable license to access and use the Services for personal or internal business purposes, subject to these Terms.\n5.2 Restrictions\nYou may not:\nCopy, modify, distribute, or create derivative works from any part of the Services.\nReverse engineer, decompile, or attempt to extract the source code of the Services.\nUse the Services to compete with QuickWriteAI or to create a similar service.\nQuickWriteAI reserves all rights not expressly granted under these Terms."
+			},
+			{
+				"title": "6. Intellectual Property Protections",
+				"description": "QuickWriteAI makes no representations or warranties regarding the originality or non-infringement of Written Content. As a user, you are solely responsible for:\nEnsuring your Inputs and Written Content do not violate the intellectual property rights of others.\nHandling any claims arising from your Written Content.\nQuickWriteAI disclaims all liability for any copyright or intellectual property violations arising from the use of the Services"
+			},
+			{
+				"title": "7. Payments, Refunds, and Cancellation",
+				"description": "7.1 Payments\nBy purchasing a subscription or other services from QuickWriteAI, you agree to pay all applicable fees in accordance with the terms presented at the time of purchase. All payments are final and non-refundable.\n7.2 No Refunds\nPayments for QuickWriteAI are non-refundable. If for any reason you’re unhappy with QuickWriteAI, please let us know. Contact us by email: info@quickwriteai.ai.\n7.3 Cancellation Policy\nYour annual and monthly plans will automatically renew until you cancel them. You can cancel your plan at any time by clicking ‘Cancel subscription’ from the “Account Management” dashboard."
+			},
+			{
+				"title": "8. Dispute Resolution",
+				"description": "8.1 Binding Arbitration\nAny disputes arising under these Terms will be resolved through binding arbitration administered by a recognized arbitration organization. The arbitration will take place in the jurisdiction where QuickWriteAI is headquartered and will be conducted in English.\n8.2 Waiver of Class Actions and Individual Lawsuits\nYou agree to waive any right to participate in a class action, class arbitration, or any other representative action proceeding relating to the Terms of Service, Privacy Policy, or against QuickWriteAI. No arbitration or proceeding shall be combined with another without the prior written consent of all parties involved."
+			},
+			{
+				"title": "9. Limitation of Liability",
+				"description": "To the fullest extent permitted by law, QuickWriteAI and its affiliates, officers, employees, and licensors will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:\nYour use of or inability to use the Services;\nUnauthorized access to or use of your Written Content or account; and\nAny claims related to copyright, intellectual property, or deleted session data that the user chose to erase using the “End Session & Delete” feature."
+			},
+			{
+				"title": "10. Changes to These Terms",
+				"description": "QuickWriteAI reserves the right to update or modify these Terms at any time. If we make significant changes, we will notify you through the Services or by other means. By continuing to use the Services after the changes become effective, you agree to the revised Terms."
+			},
+			{
+				"title": "11. Governing Law",
+				"description": "These Terms are governed by the laws of the jurisdiction where QuickWriteAI is headquartered, without regard to its conflict of laws principles."
+			},
+			{
+				"title": "12. Contact Us",
+				"description": "If you have questions about these Terms or the Services, please contact us: info@quickwriteai.ai.ai\nBy using QuickWriteAI, you acknowledge that you have read and agree to these Terms of Service."
+			}
+		]
+	},
+	"aiPrompts": {
+		"textResponse": "Write a text message reply to",
+		"writeEmail": "Write an email",
+		"refineWriting": "Refine this",
+		"summarize": "Summarize this",
+		"analyze": "Analyze this"
+	},
+	"subscriptionsArray": [
+		{
+			"name": "Pro plan",
+			"value": "pro",
+			"price": "7.99",
+			"priceSuffix": "mo",
+			"description": "Faster. Better. Private.",
+			"points": [
+				"Think, draft, or refine with full control",
+				"Privacy-first design",
+				"Verifiable deletion audit - transparency you can trust",
+				"Safe AI for work and life, protected by multi-layer deletion"
+			]
+		},
+		{
+			"name": "Premium plan",
+			"value": "premium",
+			"price": "95",
+			"priceSuffix": "yr",
+			"description": "Faster. Better. Private.",
+			"points": [
+				"Think, draft, or refine with full control",
+				"Privacy-first design",
+				"Verifiable deletion audit - transparency you can trust",
+				"Safe AI for work and life, protected by multi-layer deletion"
+			]
+		}
+	],
+	"acknowldgeFirst": "By continuing, you agree to QuickWriteAI’s ",
+	"acknowldgeTerm": "Terms of Service ",
+	"acknowldgeThier": "and acknowledge their ",
+	"acknowldgePrivacy": "Privacy Policy.",
+	"acknowldgeSecond": "QuickWriteAI prohibits using its product/service for harm, such as producing violent, abusive, or deceptive content.",
+	"fewNotes": "A few notes before we get started:",
+	"acknowldgeContinue": "Acknowledge & Continue"
+}

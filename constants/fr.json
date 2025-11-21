@@ -1,0 +1,304 @@
+{
+	"changePasswordHeading": "Modifier le mot de passe",
+	"createOnlineAccountHeading": "Créez votre compte",
+	"emailVerifiedHeading": "E-mail vérifié\nAvec succès",
+	"forgotPasswordHeading": "Mot de passe\noublié",
+	"welcomeBackHeading": "Bienvenue",
+	"privacyHeading": "Où l'Intelligence\nRencontre la Confidentialité",
+	"privacyDescription": "Pensez librement. Écrivez en privé",
+	"setNewPasswordHeading": "Définir un nouveau mot de passe",
+	"otpHeading": "Vérification par mot de passe\nà usage unique",
+	"successHeading": "Succès",
+	"welcomeHeading": "Bienvenue sur\nQuickWrite AI",
+	"deleteAccountFailed": "Échec de la suppression du compte",
+	"username": "Nom d'utilisateur",
+	"fullName": "Nom complet",
+	"enterFullName": "Saisissez votre nom complet",
+	"codeResendMsg": "Code renvoyé avec succès",
+	"codeResendFailed": "Échec du renvoi du code",
+	"otpVerificationFailed": "Échec de la vérification OTP",
+	"email": "E-mail",
+	"passwordResetSuccess": "Réinitialisation du mot de passe réussie",
+	"didnotReciveCode": "Vous n'avez pas reçu de code ?",
+	"didnothaveAccount": "Vous n'avez pas de compte ?",
+	"verifyTxt": "Vérifier",
+	"backToLogin": "Retour à la connexion",
+	"sentResetLinkTo": "Nous avons envoyé un lien de réinitialisation à",
+	"enterCodeFromEmail": "Veuillez vérifier votre boîte de réception (et dossier spam ou courrier indésirable) pour un email intitulé \"Account Recovery OTP\" de info@quickwriteai.ai, puis entrez le code à 6 chiffres ci-dessous.",
+	"resendCode": "Renvoyer le code",
+	"registerSuccess": "Inscription réussie ! Veuillez vous connecter pour continuer.",
+	"registerFailed": "Échec de l'inscription",
+	"register": "Veuillez vous inscrire",
+	"enterEmail": "Saisissez votre e-mail",
+	"paymentFailedMsg": "Paiement échoué",
+	"paymentInitFailedMsg": "Échec de l'initialisation du paiement",
+	"paymentSuccessMsg": "Paiement réussi",
+	"usernameLengthMessage": "Le nom complet doit contenir au moins 3 caractères",
+	"continue": "Continuer",
+	"resetPassword": "Réinitialiser le mot de passe",
+	"resetPasswordFailed": "Échec de la réinitialisation du mot de passe",
+	"goPro": "Passer Pro",
+	"upgrade": "Améliorer",
+	"alreadyPremium": "Vous avez déjà l'offre Premium",
+	"logout": "Se déconnecter",
+	"updatePassword": "Mettre à jour le mot de passe",
+	"deleteAccount": "Supprimer le compte",
+	"areYouSure": "Êtes-vous sûr ?",
+	"wantLogout": "Vous souhaitez vous déconnecter.",
+	"deleteAccountDesc": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+	"cancel": "Annuler",
+	"delete": "Supprimer",
+	"sideHomeLabel": "Accueil",
+	"sideProfileLabel": "Profil",
+	"getStarted": "Commencer",
+	"processingPayment": "Traitement du paiement",
+	"sideFaqLabel": "FAQ",
+	"sidePrivacyLabel": "Politique de confidentialité",
+	"sideTermsLabel": "Conditions générales",
+	"sideLangLabel": "Langue",
+	"sideBillingLabal": "Informations de facturation",
+	"forgotDescription": "Veuillez saisir votre email et nous vous enverrons un code de vérification",
+	"passwordLengthMessage": "Le mot de passe doit contenir au moins 7 caractères",
+	"confirmPasswordLengthMessage": "Le mot de passe de confirmation doit contenir au moins 7 caractères",
+	"inValidEmailMessage": "Veuillez saisir une adresse e-mail valide",
+	"bothFieldSamePassword": "Les deux champs de mot de passe doivent être identiques",
+	"passwordSuccess": "Mot de passe modifié avec succès",
+	"passwordFailed": "Échec du changement de mot de passe",
+	"forgotPasswordFailed": "Échec de la demande de mot de passe oublié",
+	"profileSetting": "Paramètres du profil",
+	"newPassword": "Nouveau mot de passe",
+	"loginDesc": "Veuillez vous connecter",
+	"rememberMe": "Se souvenir de moi",
+	"haveAnAccount": "Vous avez déjà un compte ?",
+	"typeTextMsg": "Demandez n'importe quoi",
+	"continueWithGoogle": "Se connecter avec Google",
+	"continueWithFcebook": "Se connecter avec Facebook",
+	"googleLoginFailed": "Échec de la connexion Google",
+	"facebookLoginFailed": "Échec de la connexion Facebook",
+	"loginFailed": "Échec de la connexion",
+	"forgotPassword": "Mot de passe oublié ?",
+	"login": "Se connecter",
+	"createYourAccount": "Créez votre compte",
+	"password": "Mot de passe",
+	"confirmPassword": "Confirmer le mot de passe",
+	"enterPassword": "Saisissez votre mot de passe ici",
+	"reEnterPassword": "Resaisissez votre mot de passe ici",
+	"submit": "Soumettre",
+	"billingHistory": "Historique de facturation",
+	"noDataFound": "Aucune donnée trouvée",
+	"paidFrom": "Payé depuis",
+	"transactionId": "Identifiant de transaction",
+	"succeeded": "Réussi",
+	"joinedSmarterAndFew": "Vous avez rejoint ceux qui écrivent\nplus intelligemment et en sécurité.",
+	"paswwordChangedCongrats": "Félicitations ! Votre mot de passe a été\nmodifié. Cliquez sur continuer pour vous connecter",
+	"frequentAskQuestion": "Questions fréquemment posées",
+	"termService": "Conditions d'utilisation",
+	"chatWelcomeDsecription": "L'IA privée qui supprime automatiquement tout une fois que vous avez terminé",
+	"startChatTxt": "Commencer la discussion",
+	"textResponceBtn": "Répondre par texte",
+	"writeEmailBtn": "Rédiger un e-mail",
+	"refineWritingBtn": "Améliorer l'écriture",
+	"summarizeBtn": "Résumer",
+	"analyzeBtn": "Analyser",
+	"lengthBtn": "Longueur",
+	"writingProfileBtn": "Profil d'écriture",
+	"toneBtn": "Ton",
+	"endSessionTxt": "Terminer la session - Supprimer les données",
+	"trailEnded": "Essai terminé",
+	"subscriptionExpired": "Abonnement expiré",
+	"trailEndedDesc": "Votre essai gratuit est terminé. Ne perdez pas l'accès à votre IA privée. Veuillez mettre à niveau maintenant pour continuer.",
+	"subscriptionExpiredDesc": "Votre abonnement a expiré. Ne perdez pas l'accès à votre assistant d'écriture privé. Renouvelez maintenant pour continuer à écrire de manière plus intelligente et plus sûre.",
+	"emailVerifiedDesc": "Votre e-mail a été vérifié. Vous pouvez\nmaintenant réinitialiser votre mot de passe.",
+	"subscriptionTitle": "Abonnement",
+	"subscriptionDesc": "Un forfait. Tout ce dont vous avez besoin.",
+	"monthlyTxt": "Mensuel",
+	"yearlyTxt": "Annuel",
+
+	"faqArray": [
+		{
+			"question": "Pourquoi QuickWriteAI est-il appelé « IA Privée » ?",
+			"answer": "QuickWriteAI vous aide à penser, écrire et créer avec une confidentialité totale. QuickWriteAI contient les suppressions multicouches suivantes et un audit pour la confidentialité :",
+			"points": [
+				"Le bouton « Terminer la session – Supprimer les données » supprime toutes les données de session de la mémoire et du cache.",
+				"Aucun stockage à long terme du texte utilisateur, même pas dans notre propre backend/base de données.",
+				"Métadonnées minimales uniquement (la latence et l'utilisation des jetons sont enregistrées temporairement), pas de contenu.",
+				"Architecture backend proxy pour tous les appels d'API exécutés via un proxy sécurisé, protégeant votre contenu."
+			],
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Mon contenu écrit est-il enregistré ou stocké quelque part ?",
+			"answer": "Vous pouvez supprimer vos données avec le bouton « Terminer la session – Supprimer les données ». Votre contenu est automatiquement supprimé de nos systèmes après une période de rétention de 30 jours des métadonnées non textuelles (hash de session, horodatages), qui est utilisée uniquement pour maintenir l'intégrité du service, détecter les abus et respecter les exigences légales. Vos données ne sont jamais utilisées pour entraîner des modèles d'IA, jamais utilisées pour le marketing et jamais partagées avec des tiers.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "Puis-je utiliser l'application gratuitement avant de m'abonner ?",
+			"answer": "Vous pouvez essayer QuickWriteAI gratuitement pendant 7 jours et voir comment il vous aide à améliorer vos idées, votre réflexion et votre écriture.",
+			"answer2": "",
+			"conslude": ""
+		},
+		{
+			"question": "L'IA remplacera-t-elle mon emploi ?",
+			"answer": "QuickWriteAI n'a pas été conçu pour remplacer les gens, il a été conçu pour vous autonomiser. Alors que de plus en plus d'entreprises commencent à remplacer les professionnels non-IA par ceux qui ont des compétences en IA, nous pensons que les outils d'IA devraient améliorer vos capacités, et non rivaliser avec elles. QuickWriteAI vous aide à penser, écrire et créer plus efficacement, tout en gardant vos données entièrement vôtres.",
+			"answer2": "",
+			"conslude": "Nous croyons que l'IA devrait amplifier les capacités humaines et que la confidentialité est essentielle."
+		},
+		{
+			"question": "Mes écrits et les informations fournies sont-ils privés ?",
+			"answer": "Oui, toutes les informations que vous fournissez sont privées. QuickWriteAI dispose de suppressions multicouches et d'un audit pour garantir la confidentialité.",
+			"answer2": "",
+			"conslude": ""
+		}
+	],
+
+	"privacyPolicyArry": {
+		"intro": "La mission de QuickWriteAI est de vous offrir une expérience exceptionnelle qui vous aide à écrire de manière plus intelligente, meilleure et plus rapide. Chez QuickWriteAI, la confidentialité est une priorité absolue. Voici un résumé de nos pratiques de confidentialité :",
+		"points": [
+			{
+				"title": "Résumé de la Politique de confidentialité",
+				"description": "Centré sur l'utilisateur : QuickWriteAI peut personnaliser les styles d'écriture en fonction du Contenu Écrit antérieur de l'utilisateur, le rendant highly tailored à chaque individu.\nChiffrement : Le Contenu Écrit est stocké en toute sécurité avec un chiffrement.\nDigne de confiance : Votre Contenu Écrit vous appartient. Nous n'accédons pas, ne partageons pas et ne vendons pas votre contenu à des tiers.\nProtection des informations personnelles identifiables (PII) : QuickWriteAI ne conserve pas de PII dans le Contenu Écrit. Toute PII détectée dans le Contenu Écrit est automatiquement supprimée pour protéger votre vie privée.\nSécurité des données : QuickWriteAI suit des mesures de sécurité strictes pour garantir que les informations sensibles ne sont pas stockées ou utilisées de manière abusive.\n\nNous croyons que votre expérience QuickWriteAI ne devrait jamais compromettre votre vie privée. Certaines idées et communications sont destinées à rester privées, et notre engagement est de garantir votre contrôle sur votre Contenu Écrit. Cette politique s'applique également à l'application et au site web QuickWriteAI."
+			},
+			{
+				"title": "Définitions",
+				"description": "« Arbitration Agreement » signifie la disposition d'arbitrage individuel obligatoire dans la Section 11(b).\n« Authorized User » signifie les employés, consultants, entrepreneurs et agents du Client (i) qui sont autorisés par le Client à accéder et à utiliser les Services sous les droits accordés au Client en vertu du présent Accord et (ii) pour lesquels l'accès aux Services a été acheté ci-dessous.\n« Class Action/Jury Trial Waiver » signifie la disposition de renonciation à l'action collective/procès avec jury dans la Section 11(c).\n« Content/Written Content » fait référence aux entrées textuelles, aux informations de pièces jointes téléchargées et aux sorties générées par la plateforme QuickWriteAI utilisant l'IA générative et des modèles de langage avancés. Tout le Contenu Écrit est considéré comme la propriété exclusive de l'utilisateur, sous réserve de ces conditions.\n« Services » désigne les services en ligne et/ou mobiles, le site web et les logiciels fournis dans le cadre ou en lien avec le service fourni par QuickWriteAI.\n« User » or « Users » désigne tous les visiteurs, utilisateurs et autres qui accèdent aux Services."
+			},
+			{
+				"title": "Informations que nous collectons",
+				"description": "Lorsque vous créez un compte, nous collectons les informations suivantes :\nNom d'utilisateur\nAdresse e-mail ou informations de connexion aux médias sociaux\nDétails de paiement\nNous utilisons ces informations pour exploiter et maintenir nos services.\nPar exemple :\nVotre adresse e-mail nous aide à envoyer des mises à jour concernant votre compte.\nVotre adresse e-mail permet l'authentification pour une sécurité accrue.\nVos informations de paiement nous permettent de traiter les frais d'abonnement en toute sécurité."
+			},
+			{
+				"title": "Ajout à la Politique de confidentialité : Sauvegardes PII et Conservation des données",
+				"description": "Pour protéger la vie privée des utilisateurs, QuickWriteAI ne conserve, ne stocke ni ne traite aucune PII dans le Contenu Écrit. Cela inclut, mais sans s'y limiter :\nNoms complets\nCoordonnées (adresses e-mail, informations de connexion aux médias sociaux)\nInformations de paiement\nDétails de l'employeur ou données professionnelles sensibles"
+			},
+			{
+				"title": "Conservation et suppression des données",
+				"description": "Contrôle de l'utilisateur : QuickWriteAI inclut une fonctionnalité qui permet aux utilisateurs de supprimer définitivement leur Contenu Écrit à la fin d'une session. Lorsqu'un utilisateur clique sur le bouton 'Terminer la Session – Supprimer les Données', tout le contenu associé de cette session est supprimé de façon permanente et irréversible. QuickWriteAI ne conserve pas le Contenu Écrit basé sur la session après que cette action de suppression est terminée. Cela garantit la vie privée des utilisateurs et renforce notre engagement envers des expériences d'écriture sécurisées et éphémères.\nAucun partage avec des tiers : QuickWriteAI ne partage le Contenu Écrit avec des tiers en aucune circonstance, sauf comme l'exige la loi pour la sécurité, la conformité ou la prévention de la fraude.\nConservation des données : QuickWriteAI conserve les données techniques et d'interaction liées à l'utilisation de ses Services pendant jusqu'à 30 jours (la « période de conservation »). Cette période de conservation est uniquement destinée à des fins telles que le maintien de l'intégrité du service, la détection des abus et le respect des obligations légales. Après cette période, les données conservées sont supprimées en toute sécurité de nos systèmes. Ce processus s'applique à tout contenu non autrement supprimé de façon permanente par l'utilisateur via les fonctionnalités de suppression disponibles dans l'application."
+			},
+			{
+				"title": "Stockage et confidentialité de votre Contenu Écrit",
+				"description": "Nous n'utilisons votre Contenu Écrit que dans certaines circonstances, qui incluent :\nPour des fins légitimes, telles que prévenir un préjudice ou comme l'exige la loi pour la sécurité, la conformité ou la prévention de la fraude.\nVotre Contenu Écrit n'est pas utilisé pour l'entraînement, le réglage fin ou l'optimisation du système/du modèle d'IA.\nQuickWriteAI ne stocke ni ne conserve votre Contenu Écrit, sauf s'il est explicitement exporté par l'utilisateur. La fonction 'Terminer la Session – Supprimer les Données' donne aux utilisateurs un contrôle total pour supprimer leurs données après chaque session, et toute donnée technique ou d'interaction restante est automatiquement supprimée après la période de conservation."
+			},
+			{
+				"title": "QuickWriteAI applique les couches de suppression et l'audit de suppression suivants :",
+				"description": "Saisie de l'utilisateur (Saisie sécurisée)\nL'utilisateur saisit le Contenu Écrit, qui est immédiatement marqué pour suppression automatique après la session.\nTraitement via Proxy Backend\nLes requêtes sont traitées en toute sécurité via le backend de QuickWriteAI (aucune exposition de clé côté client). Cette architecture proxy empêche la fuite des clés API, cache les identités des utilisateurs au fournisseur et ajoute une couche de confidentialité qui vous découple de vos requêtes. C'est équivalent à un pare-feu de confidentialité.\nCache Éphémère (Mémoire à TTL court)\nStockage temporaire pour le traitement des réponses ; effacé automatiquement. Ne stockez pas le Contenu Écrit de l'utilisateur ; si une mise en mémoire tampon est nécessaire pour les nouvelles tentatives, elle est conservée uniquement dans la mémoire/le cache à TTL court et purgée lorsque l'utilisateur sélectionne 'Terminer la Session – Supprimer les Données'. Ceci est conçu pour garantir que votre Contenu Écrit ne devienne pas un enregistrement permanent. Les jetons de session éphémères garantissent que chaque session a un ID temporaire qui expire automatiquement, effaçant instantanément toute donnée en cache restante lorsque la session se termine.\nTerminer la Session – Supprimer les Données\nC'est ici que l'utilisateur déclenche la suppression complète. Tout le Contenu Écrit en cache et les données de session temporaires sont purgés immédiatement.\nAudit de Suppression (Couche d'Audit)\nChaque session de suppression est vérifiée en auditant les journaux de suppression et peut être supprimée, si des données n'ont pas été purgées.\nConservation et Suppression de 30 Jours\nSeuls les métadonnées anonymisés (pas de Contenu Écrit) restent pendant 30 jours, puis sont automatiquement supprimés."
+			},
+			{
+				"title": "Sécurité et protection",
+				"description": "Vos coordonnées sont utilisées pour :\nVérifier votre identité.\nAméliorer la sécurité et la protection du service.\nPrévenir la fraude ou les activités non autorisées."
+			},
+			{
+				"title": "Politique et Instructions de Suppression des Données Facebook",
+				"description": "Si vous vous êtes inscrit ou connecté à QuickWriteAI en utilisant Facebook :\nVous pouvez demander la suppression de vos données en suivant l'une des options ci-dessous :\nDemande dans l'Application (Préféré)\nAllez dans les paramètres de votre compte dans l'application ou le site web QuickWriteAI.\nCliquez sur \"Terminer la Session – Supprimer les Données\" pour supprimer immédiatement tout le contenu de la session et les informations associées.\nCela supprimera toutes les données stockées liées à votre compte Facebook de nos systèmes.\n\nDemande Directe par E-mail\nEnvoyez un e-mail à info@quickwriteai.ai avec pour objet : \"Demande de Suppression des Données Facebook\".\nIncluez votre nom complet, l'adresse e-mail associée à votre compte Facebook et une brève note demandant la suppression des données.\nUne fois vérifié, toutes les données associées seront définitivement supprimées de nos serveurs dans les 7 jours ouvrables.\n\nRemarque : QuickWriteAI ne stocke, ne partage ni n'entraîne sur le contenu des utilisateurs. Les seules données temporairement conservées sont des métadonnées minimales (telles que l'utilisation de jetons ou la latence) nécessaires aux performances du système, qui sont automatiquement effacées après le traitement.\n\nSi vous avez des questions sur la confidentialité des données ou la suppression, veuillez nous contacter à info@quickwriteai.ai"
+			},
+			{
+				"title": "Vous contacter",
+				"description": "Nous pouvons utiliser l'e-mail pour communiquer des informations importantes concernant votre compte, fournir des alertes de sécurité ou partager des mises à jour."
+			},
+			{
+				"title": "Mises à jour de la Politique de confidentialité",
+				"description": "Nous pouvons modifier ou mettre à jour cette Politique de confidentialité avec ou sans préavis. Vous acceptez d'être lié par la Politique de confidentialité qui est en vigueur au moment où vous accédez et utilisez le site web et l'application de QuickWriteAI."
+			},
+			{
+				"title": "Comment nous vous informons :",
+				"description": "Mise à jour de la date d'effet en haut de cette Politique de confidentialité sur notre site web et notre application.\nNotifications supplémentaires, telles que des déclarations sur notre page d'accueil ou des alertes dans l'application.\n\nCette politique reflète notre engagement envers la transparence, la sécurité et la confidentialité des utilisateurs. Si vous avez des questions, n'hésitez pas à nous contacter à info@quickwriteai.ai"
+			}
+		]
+	},
+	"termsArray": {
+		"intro": "Ces conditions d'utilisation (« Conditions ») régissent votre accès et votre utilisation des services de QuickWriteAI, y compris notre site web, nos applications mobiles et tout autre produit ou service qui y fait référence (collectivement, les « Services »). En utilisant les Services, vous acceptez ces Conditions. Si vous n'êtes pas d'accord, n'utilisez pas les Services.",
+		"points": [
+			{
+				"title": "1. Informations importantes",
+				"description": "1.1 Accord d'arbitrage et renonciation à l'action collective\nEn acceptant ces Conditions, vous acceptez de résoudre tout différend avec QuickWriteAI par un arbitrage contraignant sur une base individuelle. Cela signifie que vous renoncez à tout droit de faire trancher les différends par un juge ou un jury et que vous ne pouvez pas intenter d'action contre QuickWriteAI dans le cadre d'une action collective ou d'une autre procédure représentative. Veuillez lire la section « Résolution des litiges » ci-dessous pour plus de détails."
+			},
+			{
+				"title": "2. Définitions",
+				"description": "« Accord d'arbitrage » désigne la disposition d'arbitrage individuel obligatoire de la section 11(b).\n« Utilisateur autorisé » désigne les employés, consultants, contractants et agents du client (i) qui sont autorisés par le client à accéder et à utiliser les services dans le cadre des droits accordés au client en vertu du présent accord et (ii) pour lesquels l'accès aux services a été acheté ici.\n« Renonciation à l'action collective/au procès devant jury » désigne la disposition de renonciation à l'action collective/au procès devant jury de la section 11(c).\n« Services » désigne les services en ligne et/ou mobiles, le site web et les logiciels fournis dans le cadre ou en lien avec le service fourni par QuickWriteAI.\n« Utilisateur » ou « Utilisateurs » désigne tous les visiteurs, utilisateurs et autres personnes qui accèdent aux services.\n« Contenu écrit » fait référence aux sorties textuelles générées par la plateforme QuickWriteAI utilisant l'IA générative et des modèles de langage avancés. Cela inclut les brouillons, documents ou tout autre matériel écrit créé par l'utilisation de nos services, qui sont personnalisés et adaptés aux entrées de l'utilisateur. Tout le contenu écrit est considéré comme la propriété exclusive de l'utilisateur, sous réserve de ces conditions."
+			},
+			{
+				"title": "3. Propriété des entrées et du contenu écrit",
+				"description": "3.1 Propriété de l'utilisateur\nLes utilisateurs conservent l'intégralité de la propriété des entrées via les invites que vous fournissez aux services (« Entrées ») et du contenu écrit généré par les services sur la base de vos entrées. QuickWriteAI ne revendique aucun droit de propriété sur vos entrées ou votre contenu écrit.\n3.2 Responsabilité concernant les entrées et le contenu écrit\nEn tant que propriétaire de vos entrées et de votre contenu écrit, vous êtes seul responsable :\nDe veiller à ce que vos entrées et votre contenu écrit ne violent aucune loi, réglementation applicable ou droits de tiers (y compris les droits de propriété intellectuelle).\nDe gérer toute réclamation, litige ou problème découlant de vos entrées ou de votre contenu écrit.\nDe veiller à ce que vos entrées ne violent aucun droit d'auteur, droit de propriété intellectuelle ou autre loi applicable.\nAvertissement : QuickWriteAI ne surveille ni ne vérifie les entrées des utilisateurs pour leur conformité aux exigences légales. Les utilisateurs assument toute responsabilité pour leurs entrées et tout contenu généré sur leur base.\nQuickWriteAI n'est pas responsable des litiges ou problèmes légaux liés à vos entrées ou à votre contenu écrit.\n3.3 Suppression basée sur la session\nLes utilisateurs peuvent choisir de supprimer définitivement les entrées et le contenu écrit de leur session en utilisant la fonctionnalité « Terminer la session et supprimer ». Une fois activée, tout le contenu associé est irréversiblement supprimé du système de QuickWriteAI. QuickWriteAI conserve également certaines données techniques et d'interaction générées lors de l'utilisation des services jusqu'à 30 jours (la « période de conservation »). Cette période de conservation est strictement destinée à maintenir l'intégrité opérationnelle, à prévenir les mauvaises utilisations et à répondre aux exigences légales ou de conformité. Après la période de conservation, ces données sont automatiquement et securely supprimées de nos systèmes."
+			},
+			{
+				"title": "4. Utilisation de QuickWriteAI",
+				"description": "4.1 Éligibilité\nVous devez avoir au moins 13 ans pour utiliser QuickWriteAI. Si vous êtes mineur dans votre juridiction, vous devez avoir la permission de votre parent ou tuteur légal pour utiliser les services.\n4.2 Activités interdites\nVous vous engagez à ne pas :\nUtiliser les services pour créer ou distribuer un contenu écrit qui est illégal, nuisible ou viole les droits d'autrui.\nTenter de perturber le fonctionnement des services ou d'accéder sans autorisation à toute partie des services.\nUtiliser les services à toute fin autre que leur utilisation prévue."
+			},
+			{
+				"title": "5. Licence d'utilisation des services",
+				"description": "5.1 Licence limitée\nQuickWriteAI vous accorde une licence limitée, non exclusive, non transférable et révocable pour accéder et utiliser les services à des fins personnelles ou internes, sous réserve de ces conditions.\n5.2 Restrictions\nVous ne devez pas :\nCopier, modifier, distribuer ou créer des œuvres dérivées à partir de toute partie des services.\nDésassembler, décompiler ou tenter d'extraire le code source des services.\nUtiliser les services pour concurrencer QuickWriteAI ou pour créer un service similaire.\nQuickWriteAI se réserve tous les droits non expressément accordés en vertu des présentes conditions."
+			},
+			{
+				"title": "6. Protections de la propriété intellectuelle",
+				"description": "QuickWriteAI ne fait aucune déclaration ni ne donne aucune garantie concernant l'originalité ou la non-violation du contenu écrit. En tant qu'utilisateur, vous êtes seul responsable :\nDe veiller à ce que vos entrées et votre contenu écrit ne violent pas les droits de propriété intellectuelle d'autrui.\nDe gérer toute réclamation découlant de votre contenu écrit.\nQuickWriteAI décline toute responsabilité pour toute violation du droit d'auteur ou de la propriété intellectuelle découlant de l'utilisation des services."
+			},
+			{
+				"title": "7. Paiements, remboursements et annulation",
+				"description": "7.1 Paiements\nEn achetant un abonnement ou d'autres services auprès de QuickWriteAI, vous acceptez de payer tous les frais applicables conformément aux conditions présentées au moment de l'achat. Tous les paiements sont définitifs et non remboursables.\n7.2 Aucun remboursement\nLes paiements pour QuickWriteAI ne sont pas remboursables. Si pour une raison quelconque vous n'êtes pas satisfait de QuickWriteAI, veuillez nous en informer. Contactez-nous par e-mail : info@quickwriteai.ai.\n7.3 Politique d'annulation\nVos forfaits annuels et mensuels se renouvelleront automatiquement jusqu'à ce que vous les annuliez. Vous pouvez annuler votre forfait à tout moment en cliquant sur 'Annuler l'abonnement' depuis le tableau de bord « Gestion du compte »."
+			},
+			{
+				"title": "8. Résolution des litiges",
+				"description": "8.1 Arbitrage contraignant\nTout différend découlant de ces conditions sera résolu par un arbitrage contraignant administré par un organisme d'arbitrage reconnu. L'arbitrage aura lieu dans la juridiction où QuickWriteAI a son siège social et sera conduit en anglais.\n8.2 Renonciation aux actions collectives et aux poursuites individuelles\nVous acceptez de renoncer à tout droit de participer à une action collective, un arbitrage collectif ou toute autre procédure d'action représentative relative aux conditions d'utilisation, à la politique de confidentialité ou contre QuickWriteAI. Aucun arbitrage ou procédure ne sera combiné avec un autre sans le consentement écrit préalable de toutes les parties concernées."
+			},
+			{
+				"title": "9. Limitation de responsabilité",
+				"description": "Dans la mesure maximale permise par la loi, QuickWriteAI et ses affiliés, dirigeants, employés et concédants ne seront pas responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ou de toute perte de profits ou de revenus, subis directement ou indirectement, ou de toute perte de données, d'utilisation, de goodwill ou d'autres pertes immatérielles, résultant :\nDe votre utilisation ou de votre incapacité à utiliser les services ;\nD'un accès non autorisé à votre contenu écrit ou à votre compte ; et\nDe toute réclamation relative au droit d'auteur, à la propriété intellectuelle ou aux données de session supprimées que l'utilisateur a choisi d'effacer en utilisant la fonctionnalité « Terminer la session et supprimer »."
+			},
+			{
+				"title": "10. Modifications de ces conditions",
+				"description": "QuickWriteAI se réserve le droit de mettre à jour ou de modifier ces conditions à tout moment. Si nous apportons des modifications importantes, nous vous en informerons via les services ou par d'autres moyens. En continuant à utiliser les services après l'entrée en vigueur des modifications, vous acceptez les conditions révisées."
+			},
+			{
+				"title": "11. Loi applicable",
+				"description": "Ces conditions sont régies par les lois de la juridiction où QuickWriteAI a son siège social, sans égard à ses principes de conflit de lois."
+			},
+			{
+				"title": "12. Contactez-nous",
+				"description": "Si vous avez des questions concernant ces conditions ou les services, veuillez nous contacter : info@quickwriteai.ai.ai\nEn utilisant QuickWriteAI, vous reconnaissez avoir lu et accepté ces conditions d'utilisation."
+			}
+		]
+	},
+	"aiPrompts": {
+		"textResponse": "Écrire une réponse par message texte à",
+		"writeEmail": "Écrire un email",
+		"refineWriting": "Améliorer ceci",
+		"summarize": "Résumer ceci",
+		"analyze": "Analyser ceci"
+	},
+	"subscriptionsArray": [
+		{
+			"name": "Forfait Pro",
+			"value": "pro",
+			"price": "7.99",
+			"priceSuffix": "mois",
+			"description": "Plus rapide. Meilleur. Privé.",
+			"points": [
+				"Pensez, rédigez ou perfectionnez avec un contrôle total",
+				"Conception axée sur la confidentialité",
+				"Audit de suppression vérifiable - une transparence digne de confiance",
+				"IA sécurisée pour le travail et la vie, protégée par une suppression multicouche"
+			]
+		},
+		{
+			"name": "Forfait Premium",
+			"value": "premium",
+			"price": "95",
+			"priceSuffix": "an",
+			"description": "Plus rapide. Meilleur. Privé.",
+			"points": [
+				"Pensez, rédigez ou perfectionnez avec un contrôle total",
+				"Conception axée sur la confidentialité",
+				"Audit de suppression vérifiable - une transparence digne de confiance",
+				"IA sécurisée pour le travail et la vie, protégée par une suppression multicouche"
+			]
+		}
+	],
+	"acknowldgeFirst": "En continuant, vous acceptez les ",
+	"acknowldgeTerm": "Conditions d'utilisation ",
+	"acknowldgeThier": "de QuickWriteAI et reconnaissez leur ",
+	"acknowldgePrivacy": "Politique de confidentialité.",
+	"acknowldgeSecond": "QuickWriteAI interdit d'utiliser son produit/service pour nuire, par exemple pour produire un contenu violent, abusif ou trompeur.",
+	"fewNotes": "Quelques notes avant de commencer :",
+	"acknowldgeContinue": "Accepter et continuer"
+}
