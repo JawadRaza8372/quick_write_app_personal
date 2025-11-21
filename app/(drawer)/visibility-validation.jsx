@@ -1,4 +1,5 @@
 import shieldImage from "@/assets/images/shield.png";
+import { useState } from "react";
 import {
 	FlatList,
 	Image,
@@ -18,6 +19,7 @@ import { useThemeColors } from "../../hooks/useThemeColors";
 const VisibilityValidation = () => {
 	const colors = useThemeColors();
 	const { textStrings } = useLangStrings();
+	const [selectedDataDuration, setselectedDataDuration] = useState("0day");
 	const styles = StyleSheet.create({
 		logoImageStyle: {
 			width: 33,
@@ -180,20 +182,16 @@ const VisibilityValidation = () => {
 					<View style={styles.optionsContainer}>
 						{textStrings.visibiltyChatHistoryOptions?.map((dat, index) => (
 							<TouchableOpacity
-								// onPress={() => setValue(dat?.value)}
+								onPress={() => setselectedDataDuration(dat?.value)}
 								key={index}
 								style={styles.rowcontainer}>
 								<Text style={styles.labelText}>{dat?.label}</Text>
-								{/* {dat?.value === value ? (
+								{dat?.value === selectedDataDuration ? (
 									<Image
 										source={tick}
 										style={styles.selectImage}
 									/>
-								) : null} */}
-								<Image
-									source={tick}
-									style={styles.selectImage}
-								/>
+								) : null}
 							</TouchableOpacity>
 						))}
 					</View>

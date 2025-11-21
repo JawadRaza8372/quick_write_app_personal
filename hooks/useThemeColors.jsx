@@ -10,6 +10,7 @@ const lightColors = {
 	topHeadingColor: "#292929",
 	sepratorView: "#E9EDF7",
 	darkColorOnly: "#212121",
+	darkColor: "#212121",
 	modalBg: "rgba(0,0,0,0.6)",
 	moreBg: "rgba(0,0,0,0.2)",
 	chatBtn: "rgba(0,0,0,0.1)",
@@ -45,6 +46,7 @@ const lightColors = {
 	tickTint: "#360382",
 	gradient1: "#ffffff",
 	gradient2: "#ffffff",
+	auditUprColor: "#F8F5FF",
 };
 const darkColors = {
 	mainHeadingColor: "#ffffff",
@@ -92,6 +94,7 @@ const darkColors = {
 	tickTint: "#ffffff",
 	gradient1: "rgba(246, 246, 246, 0.26)",
 	gradient2: "#343541",
+	auditUprColor: "#FFFFFF",
 };
 export const useThemeColors = () => {
 	const { theme } = useSelector((state) => state?.user);
